@@ -10,14 +10,38 @@
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
 </head>
 <body>
-<div id="mapid" style="width: 800px; height: 800px;"></div>
-<script>
+<div class="container">
+    <div class="row">
+        <div class="col s8 offset-s2">
 
+<center>
+<h4>In memory of 1976</h4>
+<p>June 16 1976 marks the start of the 1976 youth uprising against Apartheid in South Africa. Most closely associated
+with the school students march in Soweto and the murder of Hector Pieterson, the revolt spread across the country
+and well past June 1976. Along with the revolt came the deaths, most often of those shot by police. The
+South African History Online website has tried to collect a 
+<a href="http://www.sahistory.org.za/topic/june-16-soweto-youth-uprising">list</a> of the "casaulties of 
+1976". I have taken that list, done a little cleanup (code is <a href="https://github.com/pvanheus/1976">here</a>)
+and produced the map below.</p>
+
+<center><div id="mapid" style="width: 800px; height: 700px;"></div>
+<script>
 	var mymap = L.map('mapid').setView([-28.8097176,24.6074293], 6);
+    
+    var cross_icon = L.icon({
+        iconUrl: 'cross_marker.png',
+        iconSize: [15, 25],
+        iconAnchor: [7, 12],
+        popupAnchor: [0, -6]
+    });
 
 	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -26,1003 +50,1002 @@
 			'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 		id: 'mapbox.streets'
 	}).addTo(mymap);
+    
 
-    	L.marker([-33.9922222, 18.5330556]).addTo(mymap)
+    	L.marker([-33.9922222, 18.5330556], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Noel John Adriaanse, 13</b><br /></b><br />2.9.76<br />Hanover Park<br />Shot through left side of head");
     
-    	L.marker([-33.9105182, 18.5691093]).addTo(mymap)
+    	L.marker([-33.9105182, 18.5691093], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bazil Albern, 16</b><br /></b><br />9.9.76<br />Elsies River<br />Shot to side of abdomen");
     
-    	L.marker([-33.9211111, 18.6063889]).addTo(mymap)
+    	L.marker([-33.9211111, 18.6063889], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abduraghman Allie</b><br /></b><br />7.9.76<br />Ravensmead<br />Shot in chest from front");
     
-    	L.marker([-33.9897222, 18.5544444]).addTo(mymap)
+    	L.marker([-33.9897222, 18.5544444], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Christopher Appolis, 16</b><br /></b><br />10.9.76<br />Manenberg<br />Shot in head from front, Jordaan Road");
     
-    	L.marker([-33.9822813, 18.5795783205246]).addTo(mymap)
+    	L.marker([-33.9822813, 18.5795783205246], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Victor L. August</b><br /></b><br />31.12.76<br />Gugulethu<br />Reported missing during December disturbances");
     
-    	L.marker([-33.9869444, 18.5847222]).addTo(mymap)
+    	L.marker([-33.9869444, 18.5847222], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Golden Bakubaku</b><br /></b><br />26.12.76<br />Nyanga<br />Killed by migrant workers");
     
-    	L.marker([-33.9515986, 18.5527976443345]).addTo(mymap)
+    	L.marker([-33.9515986, 18.5527976443345], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Isaac Barnes, 16</b><br /></b><br />25.8.76<br />Bonteheuwel<br />Shot in chest from front");
     
-    	L.marker([-33.97916245115929, 18.58799305231915]).addTo(mymap)
+    	L.marker([-33.973231274543345, 18.585724011212662], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sydney Barnes, 32</b><br /></b><br />26.8.76<br />Gugulethu<br />Beaten to death by group of migrant workers");
     
-    	L.marker([-26.2227778, 27.89]).addTo(mymap)
+    	L.marker([-26.2227778, 27.89], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> James Barron</b><br /></b><br />26.12.76<br />Soweto<br />Shot through the head");
     
-    	L.marker([-34.15431655, 22.0608422192112]).addTo(mymap)
+    	L.marker([-34.15431655, 22.0608422192112], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Isaac Bezuidenhout</b><br /></b><br />14.9.76<br />Mosselbay<br />Burried");
     
-    	L.marker([-33.981878093955125, 18.58959447153978]).addTo(mymap)
+    	L.marker([-33.98140701629706, 18.592732445270943], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Michael Bota</b><br /></b><br />26.12.76<br />Nyanga<br />Shot dead");
     
-    	L.marker([-33.9850110372193, 18.585128577532906]).addTo(mymap)
+    	L.marker([-33.984681279629164, 18.59042845743517], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> William Botha</b><br /></b><br />26.12.76<br />Nyanga<br />Killed by migrant workers");
     
-    	L.marker([-34.0541667, 18.4763889]).addTo(mymap)
+    	L.marker([-34.0541667, 18.4763889], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Neville Botha, 20</b><br /></b><br />8.9.76<br />Retreat<br />Shot in stomach from front");
     
-    	L.marker([-34.0052778, 18.5702778]).addTo(mymap)
+    	L.marker([-34.0052778, 18.5702778], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lawrence Buba, 14</b><br /></b><br />9.9.76<br />Philippi<br />Shot in chest from front");
     
-    	L.marker([-26.217239687035534, 27.894146322258173]).addTo(mymap)
+    	L.marker([-26.219071212331958, 27.89601189221832], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Leonard Buthelezi, 39</b><br /></b><br />4.8.76<br />Soweto<br />Gunshot wounds to the head and body");
     
-    	L.marker([-33.98599992713087, 18.541354651544577]).addTo(mymap)
+    	L.marker([-33.9840065779036, 18.534062480750286], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gasant Carolissen, 21</b><br /></b><br />2.9.76<br />Hanover Park<br />Shot in chest from front");
     
-    	L.marker([-33.934444, 18.869167]).addTo(mymap)
-		.bindPopup("<b><b> Ronald C. Carolissen, 22</b><br /></b><br />9.9.76<br />Stellenbosch<br />");
-    
-    	L.marker([-33.989518590615134, 18.561809146827844]).addTo(mymap)
+    	L.marker([-33.98380563232223, 18.56399466701944], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Cook, 16</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in neck from behind");
     
-    	L.marker([-33.94886598339375, 18.562265900493475]).addTo(mymap)
+    	L.marker([-33.94767112720074, 18.55426658806393], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Rodney Cooke, 24</b><br /></b><br />25.8.76<br />Bonteheuwel<br />Shot in chest from front");
     
-    	L.marker([-34.04566350633874, 18.479604132922077]).addTo(mymap)
+    	L.marker([-34.05116404162001, 18.477498204835623], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bhanudey Dajee, 37</b><br /></b><br />8.9.76<br />Retreat<br />Shot in lungs and heart");
     
-    	L.marker([-33.90140765019711, 18.576228669783024]).addTo(mymap)
+    	L.marker([-33.908804249849865, 18.57810859392967], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick J Daniels, 24</b><br /></b><br />9.9.76<br />Elsies River<br />Shot in back of head");
     
-    	L.marker([-34.05080219978746, 18.477961779276622]).addTo(mymap)
+    	L.marker([-34.04986446412366, 18.476728444362987], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Daniels, 35</b><br /></b><br />8.9.76<br />Retreat<br />Shot in left side of chest");
     
-    	L.marker([-33.9113889, 18.8555556]).addTo(mymap)
-		.bindPopup("<b><b> Kammips Daniels, 33</b><br /></b><br />7.9.76<br />Cloetesville<br />Shot dead");
-    
-    	L.marker([-33.9858081846278, 18.561376702830625]).addTo(mymap)
+    	L.marker([-33.986995534617904, 18.56192280421227], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Davids, 16</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in head from behind, in Thomas Avenue");
     
-    	L.marker([-33.9455556, 18.53]).addTo(mymap)
+    	L.marker([-33.9455556, 18.53], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dennis Bantu Dlanza, 22</b><br /></b><br />27.12.76<br />Langa<br />Shot in Langa");
     
-    	L.marker([-33.97322113983365, 18.58073129330537]).addTo(mymap)
+    	L.marker([-33.98022308062128, 18.581782803285748], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> T.S.B. Dondi</b><br /></b><br />16.9.76<br />Gugulethu<br />Shot");
     
-    	L.marker([-25.3544444, 27.0786111]).addTo(mymap)
-		.bindPopup("<b><b> Elifas Dithipe</b><br /></b><br />31.12.76<br />Kagiso<br />");
+    	L.marker([-33.741667, 18.975], {icon: cross_icon}).addTo(mymap)
+		.bindPopup("<b><b> Yvonne Dube, 45</b><br /></b><br />9.9.76<br />Paarl East<br />Inquest revealed that she died after seven pellets from a shotgun had been fired at her. The magistrate found that no body could be held responsible for her death. She had been among a group of people throwing stones.");
     
-    	L.marker([-26.213710646015958, 27.89118928458315]).addTo(mymap)
+    	L.marker([-26.21449340511515, 27.894307299392537], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Baby Dladla, 28</b><br /></b><br />14.6.76<br />Soweto<br />Shot through the head");
     
-    	L.marker([-26.216681293508483, 27.892936957782425]).addTo(mymap)
+    	L.marker([-26.213577669162536, 27.896841800830302], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Emmanuel Dlamini</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.222205261318297, 27.89462496646477]).addTo(mymap)
+    	L.marker([-26.219128126054017, 27.890672032393987], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Melville Leonard Edelstein</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-26.213153744587554, 27.89490857281318]).addTo(mymap)
+    	L.marker([-26.21823791551963, 27.898963368346376], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Hendrik Eesterhuizen</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.98962116325011, 18.563722066415195]).addTo(mymap)
+    	L.marker([-33.98578572364007, 18.56062157966541], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Charles Elliot, 16</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in abdomen from font");
     
-    	L.marker([-33.94539115913654, 18.55575078905848]).addTo(mymap)
+    	L.marker([-33.94905871188246, 18.55288386520491], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dawood Essop, 30</b><br /></b><br />25.8.76<br />Bonteheuwel<br />Shot in back");
     
-    	L.marker([-33.99134844056219, 18.538617943393547]).addTo(mymap)
+    	L.marker([-33.99030029147974, 18.535334204340582], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Herry A.J.D Ferguson, 30</b><br /></b><br />2.9.76<br />Hanover Park<br />Shot through lungs from behind");
     
-    	L.marker([-34.05069763381272, 18.482411265244455]).addTo(mymap)
+    	L.marker([-34.04517547001432, 18.477728519934963], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Alfred A. Finch, 15</b><br /></b><br />9.9.76<br />Retreat<br />Shot in right side of chest from front");
     
-    	L.marker([-33.9202352447246, 18.614522094913514]).addTo(mymap)
+    	L.marker([-33.917745007521674, 18.615401341317384], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Edward Fish, 25</b><br /></b><br />7.9.76<br />Ravensmead<br />Shot in right side of chest and abdomen from front");
     
-    	L.marker([-33.94171966306602, 18.530870465204178]).addTo(mymap)
+    	L.marker([-33.939450598961756, 18.539902520461972], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ivy Fisher, 32</b><br /></b><br />12.8.76<br />Langa<br />Shot in right side of head");
     
-    	L.marker([-26.2205964426733, 27.89238470035382]).addTo(mymap)
+    	L.marker([-26.21822694170536, 27.896793215300672], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Enoch Follie</b><br /></b><br />18.6.76<br />Soweto<br />Shot above the heart");
     
-    	L.marker([-26.104444, 28.098889]).addTo(mymap)
+    	L.marker([-26.104444, 28.098889], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> R.W. Garnie</b><br /></b><br />26.12.76<br />Alexandra<br />Shot in right shoulder");
     
-    	L.marker([51.883229, -2.074875]).addTo(mymap)
-		.bindPopup("<b><b> Suleman Gasnola, 17</b><br /></b><br />9.9.76<br />Lansdown<br />Shot in chest from side");
-    
-    	L.marker([-33.981733579682924, 18.583866631687044]).addTo(mymap)
+    	L.marker([-33.9735483348308, 18.58234272322441], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abel Daniso Gcwabe</b><br /></b><br />1.11.76<br />Gugulethu<br />Shot dead");
     
-    	L.marker([-33.972306036196194, 18.580036854083772]).addTo(mymap)
+    	L.marker([-33.977300479037304, 18.585944701600358], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Fetras Genu, 18</b><br /></b><br />12.8.76<br />Gugulethu<br />Shot in chest from front");
     
-    	L.marker([-33.98218999974089, 18.580898993200147]).addTo(mymap)
+    	L.marker([-33.97753231725315, 18.582931975353308], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Christopher Gobile, 26</b><br /></b><br />21.8.76<br />Gugulethu<br />Shot in abdomen from front");
     
-    	L.marker([-26.21634244475195, 27.893716562449402]).addTo(mymap)
+    	L.marker([-26.222493065969932, 27.893000821815704], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jeffery Godwe</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-33.93875859562049, 18.536075366604933]).addTo(mymap)
+    	L.marker([-33.94168774899066, 18.53119450864724], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sidney Z. Gonxeka, 18</b><br /></b><br />28.12.76<br />Langa<br />Shot dead");
     
-    	L.marker([-26.218472221184367, 27.891309746864234]).addTo(mymap)
+    	L.marker([-26.215042113716695, 27.893297699358502], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Petrus Gule, 15</b><br /></b><br />26.8.76<br />Soweto<br />Gunshot wound of head");
     
-    	L.marker([-26.222292192922396, 27.896125235428773]).addTo(mymap)
+    	L.marker([-26.22184374044515, 27.89584630359055], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jumba Gumata, 26</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.97267516386417, 18.58749786680788]).addTo(mymap)
+    	L.marker([-33.97230360783091, 18.583185784203735], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mhlangabezi E Gushamn, 28</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in head from front");
     
-    	L.marker([-33.98177021708677, 18.58090861827312]).addTo(mymap)
+    	L.marker([-33.97567947894207, 18.58255968224549], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nelson Guwa, 48</b><br /></b><br />26.12.76<br />Gugulethu<br />Axed to death by migrant workers");
     
-    	L.marker([-33.9798909362572, 18.57998348911941]).addTo(mymap)
+    	L.marker([-33.97283518193296, 18.587953329425467], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Stanley Mlamli Hlakula, 26</b><br /></b><br />27.12.76<br />Gugulethu<br />Shot dead");
     
-    	L.marker([-26.22188006838609, 27.895077868895385]).addTo(mymap)
+    	L.marker([-33.7286094, 18.9802693], {icon: cross_icon}).addTo(mymap)
+		.bindPopup("<b><b> Spasiena Hoogaardt, 15</b><br /></b><br />9.9.76<br />Huguenot, Paarl<br />Shotss");
+    
+    	L.marker([-26.217450477850242, 27.89507593290477], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Joyce Hlatshwayo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21650184379971, 27.89210673785204]).addTo(mymap)
+    	L.marker([-26.214236066603522, 27.898517087335104], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Hlongwane, 43</b><br /></b><br />12.9.76<br />Soweto<br />");
     
-    	L.marker([-26.22073002244651, 27.890421157271994]).addTo(mymap)
+    	L.marker([-26.22072829586176, 27.891000830956063], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Petros Hlongwane, 29</b><br /></b><br />25.7.76<br />Soweto<br />");
     
-    	L.marker([-26.09493534612274, 28.102853646870198]).addTo(mymap)
+    	L.marker([-26.103131329086903, 28.107841435246876], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> N.C. Hlokwane</b><br /></b><br />26.12.76<br />Alexandra<br />Crushed by bus");
     
-    	L.marker([-34.05132453866436, 18.48052611127384]).addTo(mymap)
+    	L.marker([-34.04833260324714, 18.485712610004573], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Colin Isaacs, 31</b><br /></b><br />9.9.76<br />Retreat<br />Shot in neck from behind");
     
-    	L.marker([-33.98472497106876, 18.562677986615824]).addTo(mymap)
+    	L.marker([-33.986855990322155, 18.55830047108378], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Isaacs, 15</b><br /></b><br />9.9.76<br />Manenberg<br />Shot");
     
-    	L.marker([-33.983475954171524, 18.557493053471674]).addTo(mymap)
+    	L.marker([-33.9315463, 18.4333294], {icon: cross_icon}).addTo(mymap)
+		.bindPopup("<b><b> Shaheed Jacobs, 15</b><br /></b><br />3.9.76<br />District Six<br />Shot through side of neck and chest at corner of Sackville and Vincent Streets, Cape Town.");
+    
+    	L.marker([-33.9105182, 18.5691093], {icon: cross_icon}).addTo(mymap)
+		.bindPopup("<b><b> Mervyn Jacobs, 16</b><br /></b><br />8.9.76<br />Elsies' River<br />Shot in back");
+    
+    	L.marker([-33.98632251485751, 18.555778861658325], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Jacobs, 15</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in arm and chest from left at Green Dolphin Bottle Store, Jordaan Road.");
     
-    	L.marker([-33.976959877297915, 18.590685050736926]).addTo(mymap)
+    	L.marker([-33.98432857264871, 18.5946792294918], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Government Jelems</b><br /></b><br />27.12.76<br />Nyanga<br />Shot and axed to death");
     
-    	L.marker([-33.97985346253475, 18.55917341273727]).addTo(mymap)
+    	L.marker([-33.985420205330314, 18.559787152112527], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Erol Johnson</b><br /></b><br />4.2.77<br />Manenberg<br />Shot in stomach");
     
-    	L.marker([-33.98271246214157, 18.590103727411506]).addTo(mymap)
+    	L.marker([-33.97984853244723, 18.589300386943894], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lawrence Jonas, 26</b><br /></b><br />26.12.76<br />Nyanga<br />Killed by migrant workers");
     
-    	L.marker([-33.988495873147286, 18.56349678813274]).addTo(mymap)
+    	L.marker([-33.98517536231892, 18.558163491566862], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nazeem Kahn</b><br /></b><br />16.9.76<br />Manenberg<br />Shot in chest and abdomen from an angle");
     
-    	L.marker([-26.21871611438653, 27.893422483004525]).addTo(mymap)
+    	L.marker([-26.219931345297137, 27.893034930382235], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samson Fantu Kalakahla, 26</b><br /></b><br />25.8.76<br />Soweto<br />");
     
-    	L.marker([-26.217984323109384, 27.89219922094065]).addTo(mymap)
+    	L.marker([-26.21891911115834, 27.899107422380705], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> George Kalane, 15</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.9790090015286, 18.584199545965483]).addTo(mymap)
+    	L.marker([-33.98227297897322, 18.585279162545], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Andries Kamesi, 25</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in head from front");
     
-    	L.marker([-33.91535404848314, 18.60855808530112]).addTo(mymap)
+    	L.marker([-33.92047864402651, 18.614396758620195], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Christiaan B. Kamfer, 16</b><br /></b><br />7.9.76<br />Ravensmead<br />Shot in chest from front");
     
-    	L.marker([-33.98349218773748, 18.589290231291994]).addTo(mymap)
+    	L.marker([-33.98649537542105, 18.59235813361108], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Richard Khalipha, 4months</b><br /></b><br />15.1.77<br />Nyanga<br />Cause of death unknown");
     
-    	L.marker([-33.98443254335398, 18.562186383071815]).addTo(mymap)
+    	L.marker([-33.981543505781026, 18.557751019019772], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Naziem Khan, 15</b><br /></b><br />16.9.76<br />Manenberg<br />");
     
-    	L.marker([-33.9105182, 18.5691093]).addTo(mymap)
+    	L.marker([-33.9105182, 18.5691093], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Amgeline Kleinschmidt, 31</b><br /></b><br />8.9.76<br />Elsis' River<br />Shot in back of head");
     
-    	L.marker([-33.97799925171514, 18.593447252033464]).addTo(mymap)
+    	L.marker([-33.98626264692958, 18.592811214952178], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Brian Komani, 27</b><br /></b><br />26.12.76<br />Nyanga<br />Shot dead");
     
-    	L.marker([-33.98021203330155, 18.58654803746465]).addTo(mymap)
+    	L.marker([-33.97636898874038, 18.58786816833706], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Joseph Kumalo, 22</b><br /></b><br />3.9.76<br />Gugulethu<br />Shot in abdomen from front");
     
-    	L.marker([-33.973634991442076, 18.587874136658726]).addTo(mymap)
+    	L.marker([-33.98085072587486, 18.58075825198637], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Harry Kwisomba, 30</b><br /></b><br />26.1276<br />Gugulethu<br />Shot to death");
     
-    	L.marker([-25.715833, 28.380833]).addTo(mymap)
+    	L.marker([-25.715833, 28.380833], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Andries Kekane</b><br /></b><br />311276<br />Mamelodi<br />");
     
-    	L.marker([-26.218919010062027, 27.897810413754062]).addTo(mymap)
+    	L.marker([-26.22255078585203, 27.896566633105728], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Shadrack Kekane</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.216884478136752, 27.891029421714908]).addTo(mymap)
+    	L.marker([-26.218293947582882, 27.895557966505415], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Marshall Keokame</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-26.213388909948108, 27.89533422900804]).addTo(mymap)
+    	L.marker([-26.220301091948983, 27.897142549021435], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Philemon Kgampe</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220379654456647, 27.895539540630317]).addTo(mymap)
+    	L.marker([-26.220746020209926, 27.891619525018093], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Edward Kgapule</b><br /></b><br />26.12.77<br />Soweto<br />");
     
-    	L.marker([-26.212932749091607, 27.899495116679716]).addTo(mymap)
+    	L.marker([-26.216776111070388, 27.898084669507877], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gustov Kgoadi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.1433497, 28.4215221804455]).addTo(mymap)
+    	L.marker([-26.1433497, 28.4215221804455], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Linda Kgokong</b><br /></b><br />31.12.76<br />Daveyton<br />");
     
-    	L.marker([-26.21409711297401, 27.899418913651743]).addTo(mymap)
+    	L.marker([-26.213724897848387, 27.89829258459793], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ariel 'Pro' Kgongoana</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-26.220328544227417, 27.8916896287517]).addTo(mymap)
+    	L.marker([-26.216601699133765, 27.895829394232855], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Herbert Kgupisi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.219034227873028, 27.89926537460635]).addTo(mymap)
+    	L.marker([-26.222587591905953, 27.893479513904584], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sydney Kabelo Khaje, 47</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.21929289705649, 27.891921148600353]).addTo(mymap)
+    	L.marker([-26.214553714804982, 27.898508924806247], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Godfrey Khambule, 12</b><br /></b><br />24.8.76<br />Soweto<br />Gun shot wounds when police fired at crowd");
     
-    	L.marker([-25.70630052014694, 28.387119207923092]).addTo(mymap)
+    	L.marker([-25.708880716351917, 28.390422693213722], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Khoza</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.221593756543733, 27.89136619216175]).addTo(mymap)
+    	L.marker([-26.220382232460175, 27.895686569807797], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Columbus Khumalo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220137181863162, 27.89233475987771]).addTo(mymap)
+    	L.marker([-26.21777722734233, 27.89811731617683], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Khumalo, 24</b><br /></b><br />19.6.76<br />Soweto<br />Multiple injuries to body.");
     
-    	L.marker([-26.216041627464353, 27.891211384768766]).addTo(mymap)
+    	L.marker([-26.222688141983717, 27.892871284259204], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nehemiah M. Khumalo, 24</b><br /></b><br />21.6.76<br />Soweto<br />Stabbed above the heart.");
     
-    	L.marker([-26.217003574427718, 27.890678849084615]).addTo(mymap)
+    	L.marker([-26.21742810164552, 27.89104101032551], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Doctor Koalana</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21834670538348, 27.89321809752032]).addTo(mymap)
+    	L.marker([-26.21610480206875, 27.892862420223537], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Willy Koalana</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22121647228704, 27.89947619414803]).addTo(mymap)
+    	L.marker([-26.219605433159558, 27.894134298749023], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Kabelo Kobedi</b><br /></b><br />25.6.76<br />Soweto<br />");
     
-    	L.marker([-25.710396353167614, 28.383922985480872]).addTo(mymap)
+    	L.marker([-25.71317501060279, 28.382058430669808], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Kolonga</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.213162837431486, 27.892885159459016]).addTo(mymap)
+    	L.marker([-26.215737774535594, 27.89675093766242], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Kubeka, 24</b><br /></b><br />16.7.76<br />Soweto<br />Gunshot wounds to left leg. Died of haemorrhage");
     
-    	L.marker([-26.217402270347804, 27.891046752985993]).addTo(mymap)
+    	L.marker([-26.21611656313214, 27.896112915087073], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Hilton Khubeka, 19</b><br /></b><br />17.6.76<br />Soweto<br />");
     
-    	L.marker([-26.218670262033182, 27.890980134313036]).addTo(mymap)
+    	L.marker([-26.216751212948697, 27.890985160927556], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Robert Khubeka, 24</b><br /></b><br />26.12.76<br />Soweto<br />Stab wounds");
     
-    	L.marker([-26.213133532650996, 27.890681902495096]).addTo(mymap)
+    	L.marker([-26.22225741819632, 27.891480988185908], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Zabulon Khubeka, 47</b><br /></b><br />22.8.76<br />Soweto<br />");
     
-    	L.marker([-26.219646984785708, 27.893646466636497]).addTo(mymap)
+    	L.marker([-26.220752651313994, 27.897156621710888], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Zolile Kumalo</b><br /></b><br />Soweto<br />");
     
-    	L.marker([-26.214976930335744, 27.894745437274665]).addTo(mymap)
+    	L.marker([-26.214145087705802, 27.89106791161405], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Edward Kunene, 42</b><br /></b><br />18.6.76<br />Soweto<br />Stabbed twice on left side of chest");
     
-    	L.marker([-26.221732040678766, 27.89876262279438]).addTo(mymap)
+    	L.marker([-26.214917735831413, 27.895562821251676], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gunston Kwadi, 32</b><br /></b><br />26.8.76<br />Soweto<br />Gunshot wounds to head");
     
-    	L.marker([-26.212977600614288, 27.89800447772629]).addTo(mymap)
+    	L.marker([-26.219115073644158, 27.891048226517746], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gregory Kwinana, 38</b><br /></b><br />17.6.76<br />Soweto<br />");
     
-    	L.marker([-26.213461166286145, 27.895528683419787]).addTo(mymap)
+    	L.marker([-26.216384697778466, 27.89091368091591], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abiel Lebelo, 20</b><br /></b><br />4.8.76<br />Soweto<br />Shot and teargassed");
     
-    	L.marker([-26.22178583424622, 27.89692840482926]).addTo(mymap)
+    	L.marker([-26.21874089241522, 27.892251836516227], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Leburu, 23</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-26.21956439864448, 27.899484455311207]).addTo(mymap)
+    	L.marker([-26.22229326626271, 27.894010654099844], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jacob Ledwaba</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-34.04897894993148, 18.478669051603084]).addTo(mymap)
+    	L.marker([-34.04507981992822, 18.48118168679989], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ralph Lee, 34</b><br /></b><br />8.9.76<br />Retreat<br />Shot in neck from front");
     
-    	L.marker([-26.217377648603065, 27.893607053748568]).addTo(mymap)
+    	L.marker([-26.213547953315604, 27.897623191117983], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick Lengwali</b><br /></b><br />11.1.77<br />Soweto<br />");
     
-    	L.marker([-26.215830876057726, 27.891078051537303]).addTo(mymap)
+    	L.marker([-26.21690390184223, 27.8925724091903], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick Themba Lengwathi</b><br /></b><br />16.6.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.222416511862633, 27.89961268362192]).addTo(mymap)
+    	L.marker([-26.221420601476176, 27.89479524755614], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Hermina Leroke</b><br /></b><br />26.12.77<br />Soweto<br />");
     
-    	L.marker([-33.94512502138226, 18.531903303680373]).addTo(mymap)
+    	L.marker([-33.94295162423213, 18.537661217654076], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Tutu John Lesele, 45</b><br /></b><br />11.8.76<br />Langa<br />Shot in calf, buttock and chest from behind");
     
-    	L.marker([-26.218682528269138, 27.896668198027267]).addTo(mymap)
+    	L.marker([-26.22263444701846, 27.894534087231595], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> J. Lesumi</b><br /></b><br />26.12.76<br />Soweto<br />Assaulted by hostel inmates with choppers");
     
-    	L.marker([-26.214526125414697, 27.89908938417672]).addTo(mymap)
+    	L.marker([-26.218880401894857, 27.895070695155674], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> J. Letlaku</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22042803845575, 27.893300124041794]).addTo(mymap)
+    	L.marker([-26.221390615940138, 27.897206667281356], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dominic Letleka, 4</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-26.21914067955348, 27.892034421451473]).addTo(mymap)
+    	L.marker([-26.222669942133322, 27.893126369887312], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Peter Letsholo, 21</b><br /></b><br />25.8.76<br />Soweto<br />");
     
-    	L.marker([-33.94930910768007, 18.56115048766781]).addTo(mymap)
+    	L.marker([-33.94705886375437, 18.553380565389038], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Owen Leukes, 17</b><br /></b><br />Bonteheuwel<br />Reported in official police list as a casualty not resulting from police action.");
     
-    	L.marker([-33.98781510730124, 18.559381021132086]).addTo(mymap)
+    	L.marker([-33.980189832542585, 18.563810337925784], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Cyril Ivan Limba, 18</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in back and small of back at Vistula Tavern Bottle Store");
     
-    	L.marker([-26.22061541856593, 27.89884536981428]).addTo(mymap)
+    	L.marker([-26.22103893367972, 27.89713762756024], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Petrus King Linda, 26</b><br /></b><br />26.12.76<br />Soweto<br />Killed by gunshot.");
     
-    	L.marker([-26.215323411440725, 27.890707799846098]).addTo(mymap)
+    	L.marker([-26.21478643941604, 27.896694817298545], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jan Lloyd</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.9763491903342, 18.58644576427539]).addTo(mymap)
+    	L.marker([-33.97650945506362, 18.58747630007038], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samuel Louw, 42</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in chest from front");
     
-    	L.marker([-34.1539411462771, 22.065543554987855]).addTo(mymap)
+    	L.marker([-34.151140254578614, 22.061003947558763], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Cornelius Lucas</b><br /></b><br />Mosselbay<br />Died prior to September 15");
     
-    	L.marker([-33.97774015173729, 18.58508441079461]).addTo(mymap)
+    	L.marker([-33.97946097517328, 18.58126415845665], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Wiseman Lutiya, 22</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in abdominal cavity");
     
-    	L.marker([-26.220500389705677, 27.897088625705464]).addTo(mymap)
+    	L.marker([-26.213551994454136, 27.89784302271108], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Inspector Luphindo, 24</b><br /></b><br />2.7.76<br />Soweto<br />");
     
-    	L.marker([-26.218100007104226, 27.899713849465993]).addTo(mymap)
+    	L.marker([-26.21607303598547, 27.89985107123166], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Goowill Lupiwane, 35</b><br /></b><br />18.2.77<br />Soweto<br />Fractured skull");
     
-    	L.marker([-26.214865126079413, 27.899426683678104]).addTo(mymap)
+    	L.marker([-26.2190145044274, 27.897395533486797], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Reginald Luvatsha</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.221162691582702, 27.898540629442902]).addTo(mymap)
+    	L.marker([-26.216645906214932, 27.895813401397163], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Thembo Luvatsha</b><br /></b><br />26.6.76<br />Soweto<br />Bullet wounds below stomach");
     
-    	L.marker([-26.22238460010201, 27.893352381083247]).addTo(mymap)
+    	L.marker([-26.21424309534867, 27.895867809623812], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Selby Mabandla, 58</b><br /></b><br />26.12.76<br />Soweto<br />Chopped on head when hostel dwellers attacked Soweto Residents");
     
-    	L.marker([-26.218912592851865, 27.8945908959894]).addTo(mymap)
+    	L.marker([-26.21625403782615, 27.890616599411402], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Erick Mabaso, 18</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.217917206856665, 27.89077220912723]).addTo(mymap)
+    	L.marker([-26.215768819979733, 27.89562854653504], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mathabeni Mabaso</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.214537322823254, 27.8925222978995]).addTo(mymap)
+    	L.marker([-26.216575473133364, 27.899897673430424], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> N Mabaso</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.21716931109919, 27.892155789393723]).addTo(mymap)
+    	L.marker([-26.215625675552214, 27.897708448117108], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Peter Mabena</b><br /></b><br />26.12.76<br />Soweto<br />Stabbed");
     
-    	L.marker([-26.21303292283514, 27.89251780984751]).addTo(mymap)
+    	L.marker([-26.21774065599804, 27.89605876707223], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bennet Maboya</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.219306951866468, 27.890486622675585]).addTo(mymap)
+    	L.marker([-26.215308248229867, 27.892066539360744], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bernard Maboya</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22232798021443, 27.895144332605295]).addTo(mymap)
+    	L.marker([-26.219562826505218, 27.89398291396108], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Glagys Mabuku</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-25.71347110071653, 28.386631800683418]).addTo(mymap)
+    	L.marker([-25.715733378682778, 28.38792047969588], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sam Boy Mabunda</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.22144400228839, 27.89619919848174]).addTo(mymap)
+    	L.marker([-26.21586989495946, 27.89007753723012], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> B. Mabuya</b><br /></b><br />26.12.76<br />Soweto<br />Bullet wound to mouth and shoulder");
     
-    	L.marker([-26.221937543627213, 27.89554580843054]).addTo(mymap)
+    	L.marker([-26.213166824064665, 27.893753114211734], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick Mabuza, 24</b><br /></b><br />17.9.76<br />Soweto<br />");
     
-    	L.marker([-25.70894901254538, 28.38365996652949]).addTo(mymap)
+    	L.marker([-25.714826537358118, 28.38825070621093], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Shadrack Mabuza</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.21928567649282, 27.89729719552428]).addTo(mymap)
+    	L.marker([-26.21762553832379, 27.893543468250936], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gladys Mabyka, 26</b><br /></b><br />18.2.77<br />Soweto<br />");
     
-    	L.marker([-26.102542280007285, 28.105016974895918]).addTo(mymap)
+    	L.marker([-26.103710893908488, 28.105138704856532], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> P. Madibo</b><br /></b><br />26.12.76<br />Alexandra<br />Shot in left shoulder");
     
-    	L.marker([-25.70735326756698, 28.382653461033488]).addTo(mymap)
+    	L.marker([-25.70762408857229, 28.387160161482186], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Madikane</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.217520269948235, 27.89705094078504]).addTo(mymap)
+    	L.marker([-26.21659976595441, 27.896899292969277], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick Madzivhandla</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21731944356633, 27.89996848715685]).addTo(mymap)
+    	L.marker([-26.216981039674046, 27.897097941403057], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Maepa</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.10415800942158, 28.105054540124254]).addTo(mymap)
+    	L.marker([-26.101071562453324, 28.10614627844565], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dane Maga</b><br /></b><br />26.12.76<br />Alexandra<br />Bullet wound");
     
-    	L.marker([-26.220635276165538, 27.891320976630052]).addTo(mymap)
+    	L.marker([-26.213550274331816, 27.898764260861082], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Florence Magadani</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213070770726294, 27.891550218544662]).addTo(mymap)
+    	L.marker([-26.221399307281587, 27.897878360129788], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Godfrey Mahapo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220384484657625, 27.898445960458815]).addTo(mymap)
+    	L.marker([-26.21875083685375, 27.894884630901817], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Mahasha</b><br /></b><br />26.12.77<br />Soweto<br />");
     
-    	L.marker([-26.222668372483547, 27.89977822205773]).addTo(mymap)
+    	L.marker([-26.214569265970614, 27.891547631451616], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Mahlaba, 24</b><br /></b><br />26.12.78<br />Soweto<br />");
     
-    	L.marker([-26.216633299890205, 27.897501963479176]).addTo(mymap)
+    	L.marker([-26.222278141651678, 27.891942040190422], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Pauline Mahlambi</b><br /></b><br />26.12.79<br />Soweto<br />Bullet wound on thigh.");
     
-    	L.marker([-26.218081270268733, 27.892354906409125]).addTo(mymap)
+    	L.marker([-26.220468077734512, 27.893831198019615], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Raymond Mahlaza, 24</b><br /></b><br />17.6.76<br />Soweto<br />Shot in hip");
     
-    	L.marker([-26.216194884181263, 27.89146084796725]).addTo(mymap)
+    	L.marker([-26.217955050497874, 27.894698411568136], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Maxwell Mahlinza, 24</b><br /></b><br />17.6.76<br />Soweto<br />Shot in hip");
     
-    	L.marker([-26.22143364610129, 27.897683545184982]).addTo(mymap)
+    	L.marker([-26.218091207168914, 27.891830378925643], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> G. Mahopo</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.22241801691227, 27.894811863544387]).addTo(mymap)
+    	L.marker([-26.219057327333402, 27.893627418356665], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Walter Maichetha, 15</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22223277946132, 27.894427297423057]).addTo(mymap)
+    	L.marker([-26.22257301146673, 27.89611675918793], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Richard Mailangwe</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22091198174502, 27.898532680978533]).addTo(mymap)
+    	L.marker([-26.216347698186016, 27.894195660972176], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Maipa</b><br /></b><br />26.12.77<br />Soweto<br />");
     
-    	L.marker([-33.97444367699123, 18.587293609649812]).addTo(mymap)
+    	L.marker([-33.97974780805286, 18.58695765082061], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Archibald Majambela, 23</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in chest from front");
     
-    	L.marker([-34.001114788045875, 18.574814515402707]).addTo(mymap)
+    	L.marker([-34.00173167782306, 18.577782761502817], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Douglas Majamba, 20</b><br /></b><br />12.8.76<br />Philippi<br />Shot in chest from front");
     
-    	L.marker([-33.94239060569276, 18.530203529622337]).addTo(mymap)
+    	L.marker([-33.94530380708587, 18.53158098078204], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Rebecca Majeka, 37</b><br /></b><br />11.8.76<br />Langa<br />Shot through neck from behind");
     
-    	L.marker([-26.22006304801652, 27.891668299453528]).addTo(mymap)
+    	L.marker([-26.217544575345517, 27.893950842210998], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Majoko</b><br /></b><br />26.12.78<br />Soweto<br />");
     
-    	L.marker([-26.22087377334642, 27.898810878708698]).addTo(mymap)
+    	L.marker([-26.215764964716865, 27.891708529425337], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nongoentu Majola, 28</b><br /></b><br />8.8.76<br />Soweto<br />Shot dead by Railway police");
     
-    	L.marker([-26.216820341622505, 27.89865637093238]).addTo(mymap)
+    	L.marker([-26.220183179885577, 27.89953120543173], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Boy Majola</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.216844447223128, 27.890306586300536]).addTo(mymap)
+    	L.marker([-26.216985344945677, 27.895432163147568], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Titus Majola, 15</b><br /></b><br />19.7.76<br />Soweto<br />");
     
-    	L.marker([-33.97505676452509, 18.585975385878715]).addTo(mymap)
+    	L.marker([-33.97861162177328, 18.584360312577353], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ellen Makaluza</b><br /></b><br />26.12.76<br />Gugulethu<br />Axed to death by migrant workers");
     
-    	L.marker([-33.975576588623824, 18.580709421715987]).addTo(mymap)
+    	L.marker([-33.98208518399754, 18.589315860747686], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Monica Makundayi, 5</b><br /></b><br />26.12.76<br />Gugulethu<br />Shot dead");
     
-    	L.marker([-26.218476927515656, 27.897806513690387]).addTo(mymap)
+    	L.marker([-26.21537880022524, 27.892212360445114], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Washington Makate, 26</b><br /></b><br />25.8.76<br />Soweto<br />Shotgun pellet wounds to both legs. Died of haemorrhage.");
     
-    	L.marker([-26.213192620724787, 27.89354285641568]).addTo(mymap)
+    	L.marker([-26.21327764786952, 27.89110764301484], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abraham Makari, 43</b><br /></b><br />18.2.77<br />Soweto<br />Stab wound");
     
-    	L.marker([-26.219687580924404, 27.892859863159412]).addTo(mymap)
+    	L.marker([-26.22268887627191, 27.892646858546357], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Washington T Makate</b><br /></b><br />26.12.76<br />Soweto<br />Shot through the neck.");
     
-    	L.marker([-26.219863373006792, 27.895084774503232]).addTo(mymap)
+    	L.marker([-26.213400914036995, 27.891145827682163], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Peter Makgabane</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22097255204605, 27.891290721188156]).addTo(mymap)
+    	L.marker([-26.2144829227006, 27.893007704502], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Makgetle</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.214260730445087, 27.890162180502386]).addTo(mymap)
+    	L.marker([-26.214569125876768, 27.896399536136943], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Petrus K. Makhabane</b><br /></b><br />26.12.76<br />Soweto<br />Shot in chest and stomach");
     
-    	L.marker([-26.214239231453735, 27.890861495783767]).addTo(mymap)
+    	L.marker([-26.22121048748171, 27.89878909526017], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abraham Makhari, 33</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220875513298413, 27.899096559351413]).addTo(mymap)
+    	L.marker([-26.221411958022692, 27.8995280000285], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Makhosi Makhotla, 41</b><br /></b><br />7.9.76<br />Soweto<br />Gunshot wounds to abdomen");
     
-    	L.marker([-26.21845280312645, 27.890300597953438]).addTo(mymap)
+    	L.marker([-26.21562385540603, 27.894077152318676], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> George Malindisa, 23</b><br /></b><br />31.7.76<br />Soweto<br />");
     
-    	L.marker([-33.98004493695534, 18.58715326426325]).addTo(mymap)
+    	L.marker([-33.98173929058079, 18.588149269619798], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gladwell Maneli</b><br /></b><br />2.1.77<br />Gugulethu<br />Beaten to death by group of migrant workers");
     
-    	L.marker([-26.219411557018024, 27.893769743806086]).addTo(mymap)
+    	L.marker([-26.21709090406901, 27.89860298422134], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Herbert Manale</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21609424815261, 27.892351667725404]).addTo(mymap)
+    	L.marker([-26.220929024031864, 27.898642047884863], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Victor Manganyi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.215950321337477, 27.896187772217168]).addTo(mymap)
+    	L.marker([-26.217630798416966, 27.89989611852197], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Arthur Manhayi, 24</b><br /></b><br />24.8.76<br />Soweto<br />Chopped to death, allegedly by hostel dwellers");
     
-    	L.marker([-26.22180525996301, 27.89314918373872]).addTo(mymap)
+    	L.marker([-26.219295705104003, 27.893239310535737], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Benjamin Mankayi, 39</b><br /></b><br />23.8.76<br />Soweto<br />Stabbed during attack by hostel dweller.");
     
-    	L.marker([-26.21912762490382, 27.8945639736805]).addTo(mymap)
+    	L.marker([-26.221171013688227, 27.899212313941185], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gideon Mankayi, 39</b><br /></b><br />24.8.76<br />Soweto<br />Cut across the head with sharp instrument");
     
-    	L.marker([-26.22212827472603, 27.890781219517546]).addTo(mymap)
+    	L.marker([-26.217048550051665, 27.897407333448825], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> S. Maphalala</b><br /></b><br />27.8.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.21574473094275, 27.89044787415861]).addTo(mymap)
+    	L.marker([-26.217894263689008, 27.893380164097806], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Phillip March, 16</b><br /></b><br />20.6.76<br />Soweto<br />Shot thrice through the head.");
     
-    	L.marker([-34.049983251765035, 18.480107866044616]).addTo(mymap)
+    	L.marker([-34.04604478006167, 18.48547893812962], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Alfred Marney, 18</b><br /></b><br />16.9.76<br />Retreat<br />Shot in small of back");
     
-    	L.marker([-26.214015571304863, 27.897081544129943]).addTo(mymap)
+    	L.marker([-26.216784452606763, 27.8973620120898], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sara Maseko, 46</b><br /></b><br />17.6.76<br />Soweto<br />Fatal gunshot wounds to thighs. Died of haemorrhage");
     
-    	L.marker([-26.219486254484092, 27.890874845768415]).addTo(mymap)
+    	L.marker([-26.213627713184138, 27.896615146178895], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sylvester Vusi Maseko, 21</b><br /></b><br />20.9.76<br />Soweto<br />Gunshot wounds to the head.");
     
-    	L.marker([-33.981226908663125, 18.58180629725972]).addTo(mymap)
+    	L.marker([-33.97232281579004, 18.580150388460947], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nkululo Masiba, 22</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in right shoulder from behind");
     
-    	L.marker([-26.218188343173548, 27.895484660348302]).addTo(mymap)
+    	L.marker([-26.21492851182716, 27.891222089495262], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bernard Masimango</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21791326169304, 27.897757387779958]).addTo(mymap)
+    	L.marker([-26.222155553222873, 27.896265849501184], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Themba Masuku</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.221148699822166, 27.896863039630237]).addTo(mymap)
+    	L.marker([-26.219552189556218, 27.890173689221694], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Grace Masenya</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.215607443267892, 27.89464619933108]).addTo(mymap)
+    	L.marker([-26.217882784133018, 27.892037495039947], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Mashaba, 22</b><br /></b><br />26.12.76<br />Soweto<br />Strangulation");
     
-    	L.marker([-26.217081628400564, 27.891400413941366]).addTo(mymap)
+    	L.marker([-26.221255203560993, 27.890108521085253], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> F.B. Mashiane</b><br /></b><br />26.8.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.218043950406113, 27.890612894422812]).addTo(mymap)
+    	L.marker([-26.216038942406826, 27.89569615005872], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Morris Mashinini</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.218207660696397, 27.898565492484497]).addTo(mymap)
+    	L.marker([-26.213592295208574, 27.89740794842217], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ben Mashombo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21908483259815, 27.893307048944113]).addTo(mymap)
+    	L.marker([-26.219595175391095, 27.895136620921388], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Aby Masilela, 24</b><br /></b><br />26.12.76<br />Soweto<br />Multiple injuries");
     
-    	L.marker([-26.22002815353123, 27.894437164441296]).addTo(mymap)
+    	L.marker([-26.217909777888508, 27.896033655825615], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Boas Sydney Masilo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.219908848755207, 27.893568348272517]).addTo(mymap)
+    	L.marker([-26.213725417580893, 27.898709916766094], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> E.N. Masilo</b><br /></b><br />24.8.76<br />Soweto<br />Chopped by hostel residents");
     
-    	L.marker([-26.221722149505826, 27.890873328197728]).addTo(mymap)
+    	L.marker([-26.218960447534517, 27.89178727001174], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Masinga, 19</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-26.214204654173855, 27.89157995741482]).addTo(mymap)
+    	L.marker([-26.2195210427514, 27.891333194469055], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Masuiga, 19</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-25.707002963025072, 28.384024307044108]).addTo(mymap)
+    	L.marker([-25.714597958736118, 28.389423806949615], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Aaron Mathabathe</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-25.715796324633512, 28.389401173447993]).addTo(mymap)
+    	L.marker([-25.709772992788995, 28.38356271876392], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Elifas Mathagane</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.21604434256799, 27.89025349624674]).addTo(mymap)
+    	L.marker([-26.219193981072703, 27.899218007352097], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jacob Sydney Mathebula, 22</b><br /></b><br />4.7.76<br />Soweto<br />Shot through leg");
     
-    	L.marker([-26.21469677645849, 27.89570451455637]).addTo(mymap)
+    	L.marker([-26.22173333138664, 27.89218742327446], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Josiah Mathebula, 54</b><br /></b><br />26.12.76<br />Soweto<br />Spinal cord injury");
     
-    	L.marker([-34.04881455006413, 18.482263392388134]).addTo(mymap)
+    	L.marker([-34.045060856537596, 18.480350174335975], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Reginald C. Matheson, 18</b><br /></b><br />8.9.76<br />Retreat<br />Shot in back, neck and head from behind");
     
-    	L.marker([-26.218204075540438, 27.89972570437704]).addTo(mymap)
+    	L.marker([-26.216142255557408, 27.897890066518414], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johan Mathobela, 19</b><br /></b><br />12.8.76<br />Soweto<br />");
     
-    	L.marker([-25.70650443422278, 28.385235389325363]).addTo(mymap)
+    	L.marker([-25.709489239165954, 28.390168524229182], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lazarus Matimela</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.21471131437221, 27.89643492805512]).addTo(mymap)
+    	L.marker([-26.215566212425458, 27.89497929005065], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samuel Matlhaku, 66</b><br /></b><br />26.6.76<br />Soweto<br />");
     
-    	L.marker([-26.217877007728113, 27.898500579659128]).addTo(mymap)
+    	L.marker([-26.214308604951462, 27.8963094667009], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mackenzie Matome</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.214488233652045, 27.89132380295875]).addTo(mymap)
+    	L.marker([-26.21631659183035, 27.89859881163356], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Abel Jan Matsabu</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.217322824073825, 27.893245710693066]).addTo(mymap)
+    	L.marker([-26.22214458375422, 27.89619144713994], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> E. Matsapola</b><br /></b><br />26.12.76<br />Soweto<br />Two bullet wounds");
     
-    	L.marker([-26.220624078726036, 27.8975203064361]).addTo(mymap)
+    	L.marker([-26.22227393773089, 27.89899687139423], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jeffrey Matsepe</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.222317496160453, 27.891619097383103]).addTo(mymap)
+    	L.marker([-26.220068308989077, 27.898001306893136], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> James Sello Matsunyane</b><br /></b><br />26.12.76<br />Soweto<br />Shot in the back, the bullet went through the body");
     
-    	L.marker([-26.21965560510166, 27.89555271280567]).addTo(mymap)
+    	L.marker([-26.219277408337256, 27.89466773998844], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sipho Mavimbela</b><br /></b><br />18.6.76<br />Soweto<br />Shot through chest");
     
-    	L.marker([-34.05014991943522, 18.485415796201256]).addTo(mymap)
+    	L.marker([-34.0484029714793, 18.48227909703607], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nicholas May, 19</b><br /></b><br />8.9.76<br />Retreat<br />Shot in back");
     
-    	L.marker([-33.973711078776674, 18.584904912710847]).addTo(mymap)
+    	L.marker([-33.9820658324127, 18.58454311960505], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Zizwe Mazwai, 18</b><br /></b><br />8.9.76<br />Gugulethu<br />Went to visit friend at 6pm. 8.9.76. His was found in the mortuary the next day.");
     
-    	L.marker([-25.707528639930437, 28.388768566704524]).addTo(mymap)
+    	L.marker([-25.707841746336378, 28.383782561087475], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ames Mbatha</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.2155225737153, 27.896130198813523]).addTo(mymap)
+    	L.marker([-26.218253711312183, 27.892872632380012], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sipho Clement Mbatha, 22</b><br /></b><br />24.10.76<br />Soweto<br />Multiple shotgun wounds in chest and abdomen.");
     
-    	L.marker([-26.213863660826856, 27.89807055893259]).addTo(mymap)
+    	L.marker([-26.22135949952359, 27.896035794577944], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Frank Mbebe</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21593180282332, 27.89861279036714]).addTo(mymap)
+    	L.marker([-26.221657258615984, 27.89801834368229], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Princess Mbeki</b><br /></b><br />17.9.76<br />Soweto<br />Police fired on crowed of students at Sekano-Ntoane High School. Gunshot wounds.");
     
-    	L.marker([-26.21818466703006, 27.891661605933706]).addTo(mymap)
+    	L.marker([-26.212927921922148, 27.892240435628747], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Aaron Mbele</b><br /></b><br />26.12.76<br />Soweto<br />Struck by bullet.");
     
-    	L.marker([-26.21445631736517, 27.89104752714905]).addTo(mymap)
+    	L.marker([-26.221835338460476, 27.89087764013582], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Mbele</b><br /></b><br />24.10.76<br />Soweto<br />Died of bullet wounds in the head and chest.");
     
-    	L.marker([-26.214046294219337, 27.890261388172675]).addTo(mymap)
+    	L.marker([-26.214701314462644, 27.89546711638722], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Stanley Mbengwane, 28</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.98368450867268, 18.55447501792116]).addTo(mymap)
+    	L.marker([-33.98483689966571, 18.55504965319689], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Richard McDeci, 35</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in back");
     
-    	L.marker([-26.218365043951, 27.89111965324339]).addTo(mymap)
+    	L.marker([-26.217759405381504, 27.893249460021597], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Moses Mchunu, 12</b><br /></b><br />26.12.76<br />Soweto<br />Gross mutilation of the head.");
     
-    	L.marker([-26.215963426812312, 27.897618200041272]).addTo(mymap)
+    	L.marker([-26.21445085161978, 27.894225746945605], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Mda, 32</b><br /></b><br />17.6.76<br />Soweto<br />Gunshot wounds to chest and lungs");
     
-    	L.marker([-33.9378638479949, 18.534390058136772]).addTo(mymap)
+    	L.marker([-33.93887711381677, 18.5383558326065], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dambile Mdayi, 24</b><br /></b><br />11.8.76<br />Langa<br />Shot in chest from front");
     
-    	L.marker([-26.21812696759214, 27.890920341029986]).addTo(mymap)
+    	L.marker([-26.22003724098915, 27.893762441317488], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Peter Menwe</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220732099712095, 27.899777605383765]).addTo(mymap)
+    	L.marker([-26.21643531674498, 27.897536378688468], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Mevana</b><br /></b><br />26.12.76<br />Soweto<br />Shot through sternum");
     
-    	L.marker([-33.8125783, 18.5044797135871]).addTo(mymap)
-		.bindPopup("<b><b> Karel Meyer, 45</b><br /></b><br />9.9.76<br />Sherwood Park<br />Shot in right buttock from behind");
-    
-    	L.marker([-26.21347771001184, 27.890826435225378]).addTo(mymap)
+    	L.marker([-26.216627138082288, 27.89061936399978], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samuel Mhlanga, 17</b><br /></b><br />26.12.76<br />Soweto<br />Fractured skull");
     
-    	L.marker([-26.102316911129716, 28.099167534299017]).addTo(mymap)
+    	L.marker([-26.10330713863212, 28.108755905184317], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Felix Mhlongo</b><br /></b><br />18.6.76<br />Alexandra<br />Shot - wounded in lung, heart and spinal column");
     
-    	L.marker([-26.221973899076936, 27.894490560343797]).addTo(mymap)
+    	L.marker([-26.215466649247517, 27.891250636915967], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lord Miller</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.222381378293537, 27.89043307003857]).addTo(mymap)
+    	L.marker([-26.21615114390689, 27.89103830481611], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lily Mithi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.976610242165386, 18.581435966758647]).addTo(mymap)
+    	L.marker([-33.97494702497729, 18.582106023599103], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Douglas Mjamba, 20</b><br /></b><br />12.8.76<br />Gugulethu<br />");
     
-    	L.marker([-33.94020772945761, 18.53366418546812]).addTo(mymap)
+    	L.marker([-33.937130389073765, 18.539939599768303], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Cajulo Mkafulo, 36</b><br /></b><br />11.8.76<br />Langa<br />Shot through back and heart from behind");
     
-    	L.marker([-26.21430951394275, 27.893780717533886]).addTo(mymap)
+    	L.marker([-26.21877447313457, 27.893863446381676], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Tusokwakhe Mkhize</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.2494444, 27.8491667]).addTo(mymap)
-		.bindPopup("<b><b> Elias Mkhotlana, 43</b><br /></b><br />26.12.76<br />Moletsane<br />");
-    
-    	L.marker([-26.217610900842615, 27.893701999908114]).addTo(mymap)
+    	L.marker([-26.21991567414991, 27.890552285582093], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Israel Mkhwanazi, 26</b><br /></b><br />26.12.76<br />Soweto<br />Stab wounds");
     
-    	L.marker([-26.21945285567888, 27.894020148704477]).addTo(mymap)
+    	L.marker([-26.217669140512854, 27.89309741650074], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lindiwe Mkhwanazi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.217084252834052, 27.899045270754403]).addTo(mymap)
+    	L.marker([-26.222274367790586, 27.890040865700822], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> L Mkwanzi</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.214896034495958, 27.89424429272144]).addTo(mymap)
+    	L.marker([-26.22100161496115, 27.89338158810322], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lea Mlangeni</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.2170752479861, 27.89962644673397]).addTo(mymap)
+    	L.marker([-26.220753325347204, 27.893805519728417], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mbopha Mlangeni, 18</b><br /></b><br />14.9.76<br />Soweto<br />");
     
-    	L.marker([-26.214873189408056, 27.89449110508964]).addTo(mymap)
+    	L.marker([-26.219579603039207, 27.892921315347255], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dennis Mmutle</b><br /></b><br />26.12.76<br />Soweto<br />Bullet wound through the side");
     
-    	L.marker([-33.97362834457411, 18.586165892477936]).addTo(mymap)
+    	L.marker([-33.97547188287618, 18.583222587486265], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mazwi Mncedisi, 16</b><br /></b><br />9.9.76<br />Gugulethu<br />Left for soccer practice on 9.9.76. His body was found in the mortuary the next day.");
     
-    	L.marker([-26.221173508589587, 27.893920760512376]).addTo(mymap)
+    	L.marker([-26.217445090723, 27.892758610877973], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gideon Mncube, 20</b><br /></b><br />15.7.76<br />Soweto<br />");
     
-    	L.marker([-26.216142702973418, 27.891379587037438]).addTo(mymap)
+    	L.marker([-26.21842178814426, 27.898522824736173], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mantombi Mnculwane</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-26.220778889529175, 27.894287929421118]).addTo(mymap)
+    	L.marker([-26.220854398531532, 27.894593510714788], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Morris Mngemane, 18</b><br /></b><br />20.6.76<br />Soweto<br />Five bullet wounds.");
     
-    	L.marker([-26.22148468499809, 27.893824085061667]).addTo(mymap)
+    	L.marker([-26.218859675935164, 27.89285254336118], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Tenson Mngoma</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.216298443291734, 27.89239176206672]).addTo(mymap)
+    	L.marker([-26.21282112252342, 27.8916953742706], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Mngomezulu, 29</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-26.220120702795732, 27.89435443168847]).addTo(mymap)
+    	L.marker([-26.213557940112405, 27.896857110450007], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Agnes Moatlhudi, 10</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.219442798585803, 27.894672765634283]).addTo(mymap)
+    	L.marker([-26.2204669005737, 27.89065935916654], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Titus Moatse, 15</b><br /></b><br />19.7.76<br />Soweto<br />");
     
-    	L.marker([-26.2167785546002, 27.892458661891354]).addTo(mymap)
+    	L.marker([-26.213906576663813, 27.898445486135778], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samuel Oupa Modisane, 19</b><br /></b><br />24.8.76<br />Soweto<br />Bullet wound through the heart. Was found dead in the street not far from his house. He was hit by some pellets when the crowd dispersed.");
     
-    	L.marker([-26.2238889, 27.8666667]).addTo(mymap)
-		.bindPopup("<b><b> J. Modise</b><br /></b><br />26.12.76<br />Dobsonville<br />Shot in the stomach");
-    
-    	L.marker([-26.096883980693892, 28.100815233495183]).addTo(mymap)
+    	L.marker([-26.097324097445366, 28.104406491093897], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Isaac Rasebata Modukanele</b><br /></b><br />26.12.76<br />Alexandra<br />Shot");
     
-    	L.marker([-26.216334159816526, 27.893310773161804]).addTo(mymap)
+    	L.marker([-26.22101436125987, 27.899155356965938], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jacob Modukanele</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21792581440815, 27.89086025882524]).addTo(mymap)
+    	L.marker([-26.218204733044534, 27.896201226695183], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jacob Moerane, 23</b><br /></b><br />19.6.76<br />Soweto<br />Burnt under vehicle");
     
-    	L.marker([-26.213334841047292, 27.897989996719424]).addTo(mymap)
+    	L.marker([-26.22081220616931, 27.89448198791845], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> R.A. Mofokeng</b><br /></b><br />17.6.76<br />Soweto<br />Stabbed with bottle");
     
-    	L.marker([-26.21750498254473, 27.892233006633376]).addTo(mymap)
+    	L.marker([-26.21799469976938, 27.893705232696945], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Mogola</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213976700406562, 27.893702537178267]).addTo(mymap)
+    	L.marker([-26.221026954933112, 27.898963701498364], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nchimane Philemon Mogotsi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.221759277316966, 27.891043214565858]).addTo(mymap)
+    	L.marker([-26.21973973169043, 27.899255056827897], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Raymond Mofokeng, 14</b><br /></b><br />25.8.76<br />Soweto<br />Gunshot wounds to chest and neck");
     
-    	L.marker([-26.21785121951669, 27.894325445658986]).addTo(mymap)
+    	L.marker([-26.222573320324024, 27.8955937157109], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> J. Mohamme</b><br /></b><br />24.8.76<br />Soweto<br />Stabbed in the stomach, face sliced off");
     
-    	L.marker([-26.21907708879635, 27.8983041282389]).addTo(mymap)
+    	L.marker([-26.220480959929848, 27.891600108584406], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Steven Mohapi, 58</b><br /></b><br />18.2.77<br />Soweto<br />Head injuries");
     
-    	L.marker([-26.217058029264486, 27.89208862615654]).addTo(mymap)
+    	L.marker([-26.22187084829042, 27.892859007873046], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mphele Mohlabane</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-25.5080556, 28.0680556]).addTo(mymap)
+    	L.marker([-25.5080556, 28.0680556], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Mohwaduba</b><br /></b><br />31.12.76<br />Mabopane<br />");
     
-    	L.marker([-26.2145791908802, 27.89696320734417]).addTo(mymap)
+    	L.marker([-26.214169288326904, 27.89839584030565], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mohatle Moses Mokgatle, 47</b><br /></b><br />26.12.76<br />Soweto<br />Stab wounds");
     
-    	L.marker([-26.219467620421113, 27.891507173317606]).addTo(mymap)
+    	L.marker([-26.22221424013015, 27.89211138994934], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Amos Mokoena</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.218880054023067, 27.89697053382777]).addTo(mymap)
+    	L.marker([-26.21984667892856, 27.899517033920574], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Moses Mokoena</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.220205481686953, 27.89983251805115]).addTo(mymap)
+    	L.marker([-26.222093963300455, 27.897251760407677], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Vincent Mokoena</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.222646720704844, 27.89659339165116]).addTo(mymap)
+    	L.marker([-26.214475949352362, 27.893722143416593], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lobian Molapo</b><br /></b><br />261276<br />Soweto<br />");
     
-    	L.marker([-26.222585532593424, 27.89240780011963]).addTo(mymap)
+    	L.marker([-26.222002061923718, 27.896722219792025], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Molefe, 19</b><br /></b><br />25.6.76<br />Soweto<br />");
     
-    	L.marker([-26.215791975168596, 27.898174074566455]).addTo(mymap)
+    	L.marker([-26.216583342967237, 27.89713751609401], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Peter Molefe, 21</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.217503406063177, 27.897929342359014]).addTo(mymap)
+    	L.marker([-26.218364754493088, 27.89997679107813], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Hendrick Moleko</b><br /></b><br />18.6.76<br />Soweto<br />Shot in the stomach");
     
-    	L.marker([-26.21572392345268, 27.890918139516685]).addTo(mymap)
+    	L.marker([-26.214862668174582, 27.89916209519489], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Joseph S. Mononyane</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-26.216977411101936, 27.892808094379685]).addTo(mymap)
+    	L.marker([-26.216764942847586, 27.893596612301483], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Elijah Montjane</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.218672704299024, 27.893227442183743]).addTo(mymap)
+    	L.marker([-26.214201320467556, 27.899035691442556], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johan Mooketsi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213205433267294, 27.890235987218805]).addTo(mymap)
+    	L.marker([-26.22133666577372, 27.89278581541408], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> J.P. Morolong</b><br /></b><br />23.9.76<br />Soweto<br />Stabbed and beaten to death");
     
-    	L.marker([-33.9119642715176, 18.61382480304472]).addTo(mymap)
+    	L.marker([-33.92029725177539, 18.612042490027942], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Phillip Moses, 41</b><br /></b><br />7.9.76<br />Ravensmead<br />Shot in stomach from front");
     
-    	L.marker([-33.942576905990215, 18.53704542287369]).addTo(mymap)
+    	L.marker([-33.9439262383772, 18.535791166834215], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ezekiel Mosie, 18</b><br /></b><br />12.8.76<br />Langa<br />Shot in head from front in front of Langa Police Station");
     
-    	L.marker([-26.213714083085975, 27.893051564842494]).addTo(mymap)
+    	L.marker([-26.213977992237243, 27.89102702384572], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Nethan Motsweni</b><br /></b><br />25.9.76<br />Soweto<br />Gunshot wounds");
     
-    	L.marker([-26.220777267636034, 27.897020603610653]).addTo(mymap)
+    	L.marker([-26.213056092681605, 27.89132995209066], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lawrence Mphetha</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213087825430144, 27.896100574033863]).addTo(mymap)
+    	L.marker([-26.2180690573398, 27.890632444479873], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Joseph Mphithi</b><br /></b><br />Soweto<br />");
     
-    	L.marker([-26.218546236297527, 27.896657786911092]).addTo(mymap)
+    	L.marker([-26.219975255933736, 27.899547947580484], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Joseph Mpinga, 34</b><br /></b><br />25.9.76<br />Soweto<br />");
     
-    	L.marker([-26.21289654669885, 27.890601120491404]).addTo(mymap)
+    	L.marker([-26.2165208422058, 27.894176996502573], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Mpusula</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.216420219492633, 27.891935532118126]).addTo(mymap)
+    	L.marker([-26.22018446821549, 27.89289105814194], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lawrence Mshelwane, 27</b><br /></b><br />26.12.76<br />Soweto<br />Gunshot wounds to abdomen");
     
-    	L.marker([-33.97937863106003, 18.581076814681122]).addTo(mymap)
+    	L.marker([-33.97686494745648, 18.581996396542188], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Welili R Mshudulu, 23</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in chest from front");
     
-    	L.marker([-33.97597053657683, 18.589410729351705]).addTo(mymap)
+    	L.marker([-33.97960488226424, 18.58841844491082], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Mrwebi, 23</b><br /></b><br />12.8.76<br />Gugulethu<br />Shot in stomach from front");
     
-    	L.marker([-26.217306316880812, 27.892439138024006]).addTo(mymap)
+    	L.marker([-26.218248147413995, 27.89645058209027], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mbekiseni Msimanga</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.976481338741806, 18.588259633681872]).addTo(mymap)
+    	L.marker([-33.97356004504927, 18.580925585299127], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Temba Mteto, 21</b><br /></b><br />31.8.76<br />Gugulethu<br />");
     
-    	L.marker([-26.22193521191365, 27.899277589670355]).addTo(mymap)
+    	L.marker([-26.22096845040141, 27.897079116562054], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> John Mthembo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.215906787882073, 27.89084395279151]).addTo(mymap)
+    	L.marker([-26.216916658281804, 27.89902871196168], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Reuben Mthembu, 19</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.218706827958947, 27.897082361191885]).addTo(mymap)
+    	L.marker([-26.220611208431457, 27.892169112217438], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> M. Mthombeni</b><br /></b><br />26.12.76<br />Soweto<br />Attacked by thugs");
     
-    	L.marker([-26.21781126539463, 27.89504728859743]).addTo(mymap)
+    	L.marker([-26.22070495036425, 27.894962497742423], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Simon Mtshadi</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.222478992942474, 27.896210120347238]).addTo(mymap)
+    	L.marker([-26.218460588009425, 27.891372198103532], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Bennett Mubuya</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213159014457833, 27.891378158287043]).addTo(mymap)
+    	L.marker([-26.215506966979074, 27.892914304403785], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Dennis Mukel</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.98138612726404, 18.587985576688897]).addTo(mymap)
+    	L.marker([-33.9075139284791, 18.573738090297653], {icon: cross_icon}).addTo(mymap)
+		.bindPopup("<b><b> Jurie Muller, 16</b><br /></b><br />9.9.76<br />Elsies' River<br />Shot in side of head and upper body");
+    
+    	L.marker([-33.97453379312164, 18.589106059091705], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Rebson Mvukuse</b><br /></b><br />17.9.76<br />Gugulethu<br />Shot");
     
-    	L.marker([-33.93610427280227, 18.539748170302172]).addTo(mymap)
+    	L.marker([-33.93696932527037, 18.53443720022968], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> M.B.A. Mzwamadoda, 35</b><br /></b><br />11.8.76<br />Langa<br />Shot in right shoulder from behind");
     
-    	L.marker([-26.213202162994207, 27.89654228344317]).addTo(mymap)
+    	L.marker([-26.214093655094647, 27.893563068497084], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Hezia Mzila</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.2159614649763, 27.897134011409424]).addTo(mymap)
+    	L.marker([-26.2163866224721, 27.895592251782062], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Ambrose Nabuka</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-25.711487031322378, 28.38167156607713]).addTo(mymap)
+    	L.marker([-25.706713516428668, 28.390397419875843], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Michael Nare</b><br /></b><br />31.12.76<br />Mamelodi<br />");
     
-    	L.marker([-26.217686199736523, 27.8901589147571]).addTo(mymap)
+    	L.marker([-26.221645497817377, 27.89189402572655], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Daniel Ncube</b><br /></b><br />26.12.76<br />Soweto<br />Bullet wound to hip");
     
-    	L.marker([-26.21394942719893, 27.8981515445056]).addTo(mymap)
+    	L.marker([-26.22157095757974, 27.893553275987085], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Herbert Ndau</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.219989518658853, 27.89815784957788]).addTo(mymap)
+    	L.marker([-26.21317765256312, 27.89315933301702], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Zuzele Ndebele</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21768295279518, 27.89725988668735]).addTo(mymap)
+    	L.marker([-26.214650573971802, 27.891433619702966], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Michael Ndibongo</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.97663156796113, 18.58788290536011]).addTo(mymap)
+    	L.marker([-33.97933484119322, 18.586195131853774], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mzimkhulu Ndingane, 11</b><br /></b><br />14.9.76<br />Gugulethu<br />Shot in stomach from front");
     
-    	L.marker([-26.213268799740984, 27.89711799012349]).addTo(mymap)
+    	L.marker([-26.220331065816865, 27.899205081471717], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Hector Ndlela, 20</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21986973032248, 27.89317513918123]).addTo(mymap)
+    	L.marker([-26.22046257358053, 27.894656793101205], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> H.J. Ndlovu</b><br /></b><br />26.12.76<br />Soweto<br />Bullet wound to forehead");
     
-    	L.marker([-26.2219333283004, 27.89869865368403]).addTo(mymap)
+    	L.marker([-26.213501444061542, 27.894666360188246], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jimmy Ndlovu</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21526081792141, 27.89360516570416]).addTo(mymap)
+    	L.marker([-26.214338215905663, 27.89402176687215], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Lesley Hastings Ndlovu, 17</b><br /></b><br />16.6.76<br />Soweto<br />");
     
-    	L.marker([-26.215402650233205, 27.890322071143668]).addTo(mymap)
+    	L.marker([-26.216102108427904, 27.89063930888616], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Obed Ndlovu, 16</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21695966873399, 27.891215036203818]).addTo(mymap)
+    	L.marker([-26.218223745525467, 27.894856301673546], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Timothy Ndlovu, 36</b><br /></b><br />18.6.76<br />Soweto<br />");
     
-    	L.marker([-26.222462129439194, 27.89464344042063]).addTo(mymap)
+    	L.marker([-26.217007355123776, 27.896446318873988], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Herber Ndou</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.94019872230686, 18.538149957856355]).addTo(mymap)
+    	L.marker([-33.936684165712634, 18.530188446745257], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Sifanelo K. Nduna, 38</b><br /></b><br />11.8.76<br />Langa<br />Shot in small of back and loin from behind");
     
-    	L.marker([-33.97868922394303, 18.588625922704058]).addTo(mymap)
+    	L.marker([-33.9744447074372, 18.580353259496746], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Nicholas S. Ndunga, 22</b><br /></b><br />11.8.76<br />Gugulethu<br />Shot in chest from front at bottle store");
     
-    	L.marker([-33.97331623735393, 18.586270570728555]).addTo(mymap)
+    	L.marker([-33.98124041938492, 18.588467603199824], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Norman B. Ndzube</b><br /></b><br />4.12.76<br />Gugulethu<br />Shot dead");
     
-    	L.marker([-26.216852761951884, 27.899829577205924]).addTo(mymap)
+    	L.marker([-26.218996812367163, 27.892141004845026], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Wellington Ngaba</b><br /></b><br />26.12.76<br />Soweto<br />Shot");
     
-    	L.marker([-33.9525, 18.3847222]).addTo(mymap)
-		.bindPopup("<b><b> Joseph M. Ngabi, 22</b><br /></b><br />11.8.76<br />Camps Bay<br />Shot dead");
-    
-    	L.marker([-26.22128011870682, 27.89052181805794]).addTo(mymap)
+    	L.marker([-26.215593236350983, 27.898974861253066], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Oben Ngcobo, 17</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.217552946961955, 27.890714122543667]).addTo(mymap)
+    	L.marker([-26.22039494039373, 27.892435462902398], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Morris Ngemane</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.221703868318528, 27.895968117745763]).addTo(mymap)
+    	L.marker([-26.213189343595896, 27.896514085766036], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Harry Ngobeni, 26</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-25.50086379432324, 28.07251246036244]).addTo(mymap)
+    	L.marker([-25.50397386400618, 28.070061313098627], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Johannes Ngobeni</b><br /></b><br />311276<br />Mabopane<br />");
     
-    	L.marker([-26.216920725672033, 27.898270771126214]).addTo(mymap)
+    	L.marker([-26.2220355716939, 27.891504361656995], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Tennyson Ngoma</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.214880467006513, 27.89661453443891]).addTo(mymap)
+    	L.marker([-26.2183261512243, 27.89562377711276], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Aaron Ngubene</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.216836374867228, 27.89883679731646]).addTo(mymap)
+    	L.marker([-26.21768582361696, 27.892417980449704], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Vusimuzi Ngubene, 34</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.213911866164104, 27.89637399101114]).addTo(mymap)
+    	L.marker([-26.220814527290642, 27.89875637423009], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Amon Vusi Ngwenya</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.21701143087081, 27.89087440080719]).addTo(mymap)
+    	L.marker([-26.219103874619677, 27.890589479127758], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Stanley Ngwenya, 34</b><br /></b><br />17.6.76<br />Soweto<br />");
     
-    	L.marker([-26.215584479503374, 27.897807096380987]).addTo(mymap)
+    	L.marker([-26.213247340853375, 27.891842702214863], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Timothy Nhlapo, 31</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.98704186842165, 18.56033244737334]).addTo(mymap)
+    	L.marker([-33.983924195472305, 18.560978932051288], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Basil W. Nixkey, 41</b><br /></b><br />9.9.76<br />Manenberg<br />Shot in back at Green Dolphin Bottle Store");
     
-    	L.marker([-26.218098739560318, 27.89243154939561]).addTo(mymap)
+    	L.marker([-26.22182875090209, 27.89333422713399], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Fanyana Nkabinde, 17</b><br /></b><br />26.12.76<br />Soweto<br />Stab wounds to chest and heart");
     
-    	L.marker([-26.216776520516188, 27.898557023799473]).addTo(mymap)
+    	L.marker([-26.217058184167424, 27.899995036541434], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> David Nkambule</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-33.984668219953214, 18.592666945586572]).addTo(mymap)
+    	L.marker([-33.985819794683685, 18.588951625488], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Zacharia Nkangana, 18</b><br /></b><br />26.12.76<br />Nyanga<br />Shot dead");
     
-    	L.marker([-26.21585397671156, 27.898496390949386]).addTo(mymap)
+    	L.marker([-26.212781822418705, 27.892340551258844], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Samuel Nkata</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.22163317081084, 27.89590698841677]).addTo(mymap)
+    	L.marker([-26.218627803991122, 27.89207419895037], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Mnyane Nkofu</b><br /></b><br />261276<br />Soweto<br />");
     
-    	L.marker([-26.21968727684551, 27.890243349619517]).addTo(mymap)
+    	L.marker([-26.219446819002094, 27.8916417982347], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Eric Nkomo, 17</b><br /></b><br />26.12.76<br />Soweto<br />");
     
-    	L.marker([-26.215225516902535, 27.89344508249757]).addTo(mymap)
+    	L.marker([-26.21557920977818, 27.89267640838969], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Norurau Nkonyane, 34</b><br /></b><br />10.8.76<br />Soweto<br />");
     
-    	L.marker([-25.7207105, 28.3992976211347]).addTo(mymap)
+    	L.marker([-25.7207105, 28.3992976211347], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Jacob Nkosi</b><br /></b><br />31.12.76<br />Pretoria, Mamelodi<br />");
     
-    	L.marker([-26.219342927587775, 27.890735562441076]).addTo(mymap)
+    	L.marker([-26.216179047924896, 27.89723802626085], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Monica Nkosi, 6</b><br /></b><br />1.8.76<br />Soweto<br />");
     
-    	L.marker([-26.221680835715233, 27.898703626169638]).addTo(mymap)
+    	L.marker([-26.21728539375238, 27.890136035401884], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Patrick Nkosi, 20</b><br /></b><br />23.8.76<br />Soweto<br />Bullet wound through neck. Shot when fled from arrest");
     
-    	L.marker([-26.221855812923835, 27.89037516646138]).addTo(mymap)
+    	L.marker([-26.218864175812172, 27.890100071661443], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> Gordon Nkuta, 19</b><br /></b><br />25.7.76<br />Soweto<br />");
     
-    	L.marker([-26.099522593868755, 28.10380216556137]).addTo(mymap)
+    	L.marker([-26.100791830234296, 28.10005691228396], {icon: cross_icon}).addTo(mymap)
 		.bindPopup("<b><b> H.P. Nkutha</b><br /></b><br />26.12.76<br />Alexandra<br />Shot");
     
 </script>
+<p>The map will be updated as more complete data becomes available.</p>
+<p>Page contents licensed according to <a href="LICENSE">GPLv3.0</a>.</p>
+</center>
+        </div> <!-- col -->
+    </div> <!-- row -->
+</div> <!-- container -->
+
 </body>
 </html>
