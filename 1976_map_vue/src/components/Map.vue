@@ -1,7 +1,20 @@
 <template>
-  <l-map ref="map" id="map" :zoom="zoom" :options=extraOptions :center="center">
-    <l-tile-layer :url="url" :attribution="attribution" />
-    <DeathMarker :key="death.person" v-for="death in deaths" :death="death" />
+  <l-map
+          ref="map"
+          id="map"
+          :zoom="zoom"
+          :options=extraOptions
+          :center="center"
+  >
+    <l-tile-layer
+            :url="url"
+            :attribution="attribution"
+    />
+    <DeathMarker
+            :key="death.person"
+            v-for="death in deaths"
+            :death="death"
+    />
   </l-map>
 </template>
 <script>
@@ -13,8 +26,6 @@ export default {
   name: 'Map',
   data() {
     return {
-      // eslint-disable-next-line
-      marker: L.latLng(-33.782221, 20.121103),
       deaths: null,
       zoom: 10,
       extraOptions: { zoomControl: false },
@@ -38,9 +49,7 @@ export default {
     });
     this.$nextTick( () => {
       this.map = this.$refs.map.mapObject;
-      // eslint-disable-next-line
-      alert(L.control.browserPrint);
-      L.control.browserPrint().addTo(this.map);
+      L.control.browserPrint().addTo(this.map); // BUG: browserPrint is not defined
     });
   }
 }

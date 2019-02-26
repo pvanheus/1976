@@ -1,5 +1,10 @@
 <template>
-  <l-circle-marker v-if="latLng && visible" :lat-lng="latLng" :radius="3" color="#ff0000">
+  <l-circle-marker
+          v-if="latLng && visible"
+          :lat-lng="latLng"
+          :radius="markerRadius"
+          :color="markerColour"
+  >
     <l-popup>
       <DeathPopupContent :death="death" />
     </l-popup>
@@ -20,7 +25,9 @@ export default {
   },
   data() {
     return {
-      visible: true
+      visible: true,
+      markerRadius: 3,
+      markerColour: "#FF0000"
     }
   },
   computed: {
