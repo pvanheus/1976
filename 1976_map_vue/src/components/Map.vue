@@ -32,10 +32,9 @@ export default {
       // center: L.latLng(-28.8097176, 24.6074293),
       // eslint-disable-next-line
       center: L.latLng(-33.8881, 18.6726),
-      url: 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=3b21bd0fa0114d6f8e27516bd47a7b20',
-      // url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       attribution:
-        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors & <a href="http://thunderforest.com/">Thunderforest</a>'
+        '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors</a>'
     }
   },
   components: {
