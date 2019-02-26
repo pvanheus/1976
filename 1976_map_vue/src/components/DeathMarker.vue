@@ -1,13 +1,13 @@
 <template>
-  <l-marker v-if="latLng && visible" :lat-lng="latLng">
+  <l-circle-marker v-if="latLng && visible" :lat-lng="latLng" :radius="3" color="#ff0000">
     <l-popup>
       <DeathPopupContent :death="death" />
     </l-popup>
-  </l-marker>
+  </l-circle-marker>
 </template>
 
 <script>
-import { LMarker, LPopup } from 'vue2-leaflet'
+import { LCircleMarker, LPopup } from 'vue2-leaflet'
 import DeathPopupContent from './DeathPopupContent'
 
 export default {
@@ -33,8 +33,9 @@ export default {
       }
     }
   },
-  components: { DeathPopupContent, LMarker, LPopup }
+  components: { DeathPopupContent, LCircleMarker, LPopup }
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
