@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "leaflet.browser.print": "^0.8.1",
+    "leaflet-easyprint": "^2.1.9",
     "vue": "^2.5.22",
     "vue-slider-component": "^2.8.10",
     "vue2-leaflet": "^1.2.3"
