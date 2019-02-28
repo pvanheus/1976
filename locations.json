@@ -1,0 +1,118 @@
+{
+  "Athlone": {
+    "latitude": -33.9666667,
+    "longitude": 18.505
+  },
+  "Bonteheuwel": {
+    "latitude": -33.95162275,
+    "longitude": 18.5527921830928
+  },
+  "Caledon Square": {
+    "latitude": -33.92759,
+    "longitude": 18.4223
+  },
+  "Cape Town": {
+    "latitude": -33.928992,
+    "longitude": 18.417396
+  },
+  "Elsies River": {
+    "latitude": -33.9105182,
+    "longitude": 18.5691093
+  },
+  "George": {
+    "latitude": -33.964444,
+    "longitude": 22.459722
+  },
+  "Grassy Park": {
+    "latitude": -34.0451287,
+    "longitude": 18.5032529
+  },
+  "Gugulethu": {
+    "latitude": -33.9822813,
+    "longitude": 18.5795783205246
+  },
+  "Hanover Park": {
+    "latitude": -33.9922222,
+    "longitude": 18.5330556
+  },
+  "Heideveld": {
+    "latitude": -33.9641667,
+    "longitude": 18.5488889
+  },
+  "Kewtown": {
+    "latitude": -33.9594444,
+    "longitude": 18.5175
+  },
+  "Kuilsrivier": {
+    "latitude": -32.3670942,
+    "longitude": 22.5927829
+  },
+  "Langa": {
+    "latitude": -33.9455556,
+    "longitude": 18.53
+  },
+  "Lansdowne": {
+    "latitude": -33.9963409,
+    "longitude": 18.5068931
+  },
+  "Manenberg": {
+    "latitude": -33.9897222,
+    "longitude": 18.5544444
+  },
+  "Matroosfontein": {
+    "latitude": -33.9405556,
+    "longitude": 18.5777778
+  },
+  "Montagu": {
+    "latitude": -33.782221,
+    "longitude": 20.121103
+  },
+  "Mossel Bay": {
+    "latitude": -34.1832022,
+    "longitude": 22.1536248
+  },
+  "Nyanga": {
+    "latitude": -33.98798,
+    "longitude": 18.57589
+  },
+  "Nyanga East": {
+    "latitude": -33.9869444,
+    "longitude": 18.5847222
+  },
+  "Oudtshoorn": {
+    "latitude": -33.5902954,
+    "longitude": 22.204206
+  },
+  "Paarl": {
+    "latitude": -33.741667,
+    "longitude": 18.975
+  },
+  "Paarl East": {
+    "latitude": -33.741667,
+    "longitude": 18.975
+  },
+  "Philippi": {
+    "latitude": -34.0052778,
+    "longitude": 18.5702778
+  },
+  "Ravensmead": {
+    "latitude": -33.9211111,
+    "longitude": 18.6063889
+  },
+  "Retreat": {
+    "latitude": -34.0541667,
+    "longitude": 18.4763889
+  },
+  "Sherwood Park": {
+    "latitude": -33.8125783,
+    "longitude": 18.5044797135871
+  },
+  "Silvertown": {
+    "latitude": -33.9630556,
+    "longitude": 18.5294444
+  },
+  "Stellenbosch": {
+    "latitude": -33.934444,
+    "longitude": 18.869167
+  }
+}
