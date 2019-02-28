@@ -2,8 +2,8 @@
   <div>
     <span><b>{{ this.personWithAge }}</b></span><br />
     <span class="deathdate">{{ this.deathDate }}</span><br />
-    <span class="location">{{ this.death.location }}</span><br />
-    <span class="deathdetail">{{ this.death.detail }}</span><br />
+    <span class="location">{{ this.death.place }}</span><br />
+    <span class="deathdetail">{{ this.deathDetail }}</span><br />
   </div>
 </template>
 
@@ -18,14 +18,25 @@ export default {
   },
   data() {
     return {
-      personWithAge: `${this.death.person} ${this.death.age}`
+      personWithAge: `${this.death.person} ${this.death.age}`,
+      date: null
     }
   },
   computed: {
     deathDate() {
-      let date = new Date(this.death.timestamp * 1000)
-
-      return `${date.getDay()} ${date.getMonth()} ${date.getFullYear()}`
+      let date = /\d+\/\d+\/\d+/.exec(this.death.date_of_death);
+      if (!date) {
+        date = 'Unknown';
+      }
+      this.date = date;
+      return this.death.date_of_death;
+    },
+    deathDetail() {
+      if (this.death.detail == 'Unknown') {
+        return '';
+      } else {
+        return this.death.detail;
+      }
     }
   }
 }
