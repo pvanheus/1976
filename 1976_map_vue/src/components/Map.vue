@@ -10,11 +10,13 @@
             :url="url"
             :attribution="attribution"
     />
-    <DeathMarker
-            :key="death.person"
-            v-for="death in deaths"
-            :death="death"
-    />
+    <template v-if="deaths">
+      <DeathMarker
+              :key="death.person"
+              v-for="death in deaths"
+              :death="death"
+      />
+    </template>
     <!--<BrowserPrint/>-->
   </l-map>
 </template>
@@ -36,7 +38,6 @@ export default {
       // eslint-disable-next-line
       center: L.latLng(-33.8881, 18.6726),
       url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-      // url: 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=removed',
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors & <a href="http://www.thunderforest.com/">Thunderforest</a>'
     }
@@ -48,20 +49,23 @@ export default {
     LTileLayer
   },
   mounted() {
-    axios.get('https://raw.githubusercontent.com/pvanheus/1976/master/1976_deaths.json').then(response => {
-      this.deaths = response.data
-    });
-    this.$nextTick( () => {
-      this.map = this.$refs.map.mapObject;
-      this.printButton = L.easyPrint({
-        sizeModes: [{
-          width: 5961,
-          height: 5961,
-          name: 'A0 Portrait',
-          className: 'a0CssClass',
-          tooltip: 'Custom A0 Size (300dpi)'
-        }, 'A4Portrait']
-      }).addTo(this.map);
+    let url = 'https://raw.githubusercontent.com/pvanheus/1976/master/1976_cape_deaths.json';
+    axios.get(url).then(response => {
+      this.deaths = response.data;
+      this.$nextTick( () => {
+        if (this.deaths) {
+          this.map = this.$refs.map.mapObject;
+          this.printButton = L.easyPrint({
+            sizeModes: [{
+              width: 5961,
+              height: 5961,
+              name: 'A0 Portrait',
+              className: 'a0CssClass',
+              tooltip: 'Custom A0 Size (300dpi)'
+            }, 'A4Portrait']
+          }).addTo(this.map);
+        }
+      });
     });
   }
 }
