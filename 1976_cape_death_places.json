@@ -1,0 +1,176 @@
+{
+    "Athlone": {
+        "latitude": -33.9666667,
+        "longitude": 18.505,
+        "name": "Athlone",
+        "number_of_deaths": 3
+    },
+    "Bonteheuwel": {
+        "latitude": -33.95162275,
+        "longitude": 18.5527921830928,
+        "name": "Bonteheuwel",
+        "number_of_deaths": 6
+    },
+    "Caledon Square": {
+        "latitude": -33.92759,
+        "longitude": 18.4223,
+        "name": "Caledon Square",
+        "number_of_deaths": 1
+    },
+    "Cape Town": {
+        "latitude": -33.928992,
+        "longitude": 18.417396,
+        "name": "Cape Town",
+        "number_of_deaths": 2
+    },
+    "Elsies River": {
+        "latitude": -33.9105182,
+        "longitude": 18.5691093,
+        "name": "Elsies River",
+        "number_of_deaths": 5
+    },
+    "George": {
+        "latitude": -33.964444,
+        "longitude": 22.459722,
+        "name": "George",
+        "number_of_deaths": 1
+    },
+    "Grassy Park": {
+        "latitude": -34.0451287,
+        "longitude": 18.5032529,
+        "name": "Grassy Park",
+        "number_of_deaths": 1
+    },
+    "Gugulethu": {
+        "latitude": -33.9822813,
+        "longitude": 18.5795783205246,
+        "name": "Gugulethu",
+        "number_of_deaths": 45
+    },
+    "Hanover Park": {
+        "latitude": -33.9922222,
+        "longitude": 18.5330556,
+        "name": "Hanover Park",
+        "number_of_deaths": 4
+    },
+    "Heideveld": {
+        "latitude": -33.9641667,
+        "longitude": 18.5488889,
+        "name": "Heideveld",
+        "number_of_deaths": 1
+    },
+    "Kewtown": {
+        "latitude": -33.9594444,
+        "longitude": 18.5175,
+        "name": "Kewtown",
+        "number_of_deaths": 1
+    },
+    "Kuilsrivier": {
+        "latitude": -32.3670942,
+        "longitude": 22.5927829,
+        "name": "Kuilsrivier",
+        "number_of_deaths": 1
+    },
+    "Langa": {
+        "latitude": -33.9455556,
+        "longitude": 18.53,
+        "name": "Langa",
+        "number_of_deaths": 13
+    },
+    "Lansdowne": {
+        "latitude": -33.9963409,
+        "longitude": 18.5068931,
+        "name": "Lansdowne",
+        "number_of_deaths": 1
+    },
+    "Manenberg": {
+        "latitude": -33.9897222,
+        "longitude": 18.5544444,
+        "name": "Manenberg",
+        "number_of_deaths": 11
+    },
+    "Matroosfontein": {
+        "latitude": -33.9405556,
+        "longitude": 18.5777778,
+        "name": "Matroosfontein",
+        "number_of_deaths": 1
+    },
+    "Montagu": {
+        "latitude": -33.782221,
+        "longitude": 20.121103,
+        "name": "Montagu",
+        "number_of_deaths": 1
+    },
+    "Mossel Bay": {
+        "latitude": -34.1832022,
+        "longitude": 22.1536248,
+        "name": "Mossel Bay",
+        "number_of_deaths": 2
+    },
+    "Nyanga": {
+        "latitude": -33.98798,
+        "longitude": 18.57589,
+        "name": "Nyanga",
+        "number_of_deaths": 15
+    },
+    "Nyanga East": {
+        "latitude": -33.9869444,
+        "longitude": 18.5847222,
+        "name": "Nyanga East",
+        "number_of_deaths": 2
+    },
+    "Oudtshoorn": {
+        "latitude": -33.5902954,
+        "longitude": 22.204206,
+        "name": "Oudtshoorn",
+        "number_of_deaths": 1
+    },
+    "Paarl": {
+        "latitude": -33.741667,
+        "longitude": 18.975,
+        "name": "Paarl",
+        "number_of_deaths": 1
+    },
+    "Paarl East": {
+        "latitude": -33.741667,
+        "longitude": 18.975,
+        "name": "Paarl East",
+        "number_of_deaths": 2
+    },
+    "Philippi": {
+        "latitude": -34.0052778,
+        "longitude": 18.5702778,
+        "name": "Philippi",
+        "number_of_deaths": 3
+    },
+    "Ravensmead": {
+        "latitude": -33.9211111,
+        "longitude": 18.6063889,
+        "name": "Ravensmead",
+        "number_of_deaths": 6
+    },
+    "Retreat": {
+        "latitude": -34.0541667,
+        "longitude": 18.4763889,
+        "name": "Retreat",
+        "number_of_deaths": 13
+    },
+    "Sherwood Park": {
+        "latitude": -33.8125783,
+        "longitude": 18.5044797135871,
+        "name": "Sherwood Park",
+        "number_of_deaths": 2
+    },
+    "Silvertown": {
+        "latitude": -33.9630556,
+        "longitude": 18.5294444,
+        "name": "Silvertown",
+        "number_of_deaths": 1
+    },
+    "Stellenbosch": {
+        "latitude": -33.934444,
+        "longitude": 18.869167,
+        "name": "Stellenbosch",
+        "number_of_deaths": 1
+    }
+}

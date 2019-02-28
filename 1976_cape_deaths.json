@@ -3,21 +3,23 @@
         "age": "24",
         "date_of_death": "07/09/1976",
         "detail": "Shot in chest",
-        "latitude": -33.93043612829072,
-        "longitude": 18.596563474971067,
+        "latitude": -33.919379507911096,
+        "longitude": 18.610645901134337,
         "person": "Abduragman Allie",
         "place": "Ravensmead",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210895200
     },
     {
         "age": "Unknown",
         "date_of_death": "01/11/1976",
         "detail": "Shot to death",
-        "latitude": -33.978274285384344,
-        "longitude": 18.576146413940926,
+        "latitude": -33.97606420211102,
+        "longitude": 18.583712398764963,
         "person": "Abel Daniso Gcwabe ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 215647200
     },
     {
         "age": "12",
@@ -27,157 +29,173 @@
         "longitude": 22.459722,
         "person": "Abida Harris ",
         "place": "George",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211154400
     },
     {
         "age": "25",
         "date_of_death": "09/09/1976",
         "detail": "Shot in back at Sherwood Bottle Store",
-        "latitude": -33.809236006870286,
-        "longitude": 18.50538502986406,
+        "latitude": -33.81838128800154,
+        "longitude": 18.49878560495265,
         "person": "Abrahim Paulse",
         "place": "Sherwood Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "23",
         "date_of_death": "08/09/1976",
         "detail": "Shot in back at Poplankers Bazaar",
-        "latitude": -34.04794514128151,
-        "longitude": 18.47587704714336,
+        "latitude": -34.05606517836469,
+        "longitude": 18.4727475585677,
         "person": "Alec van Zyl",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "15",
         "date_of_death": "09/09/1976",
         "detail": "Shot in left side of chest from front",
-        "latitude": -34.050681332299085,
-        "longitude": 18.48526465121165,
+        "latitude": -34.0504090940995,
+        "longitude": 18.477562527322377,
         "person": "Alfred Andrew Finch",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "18",
-        "date_of_death": "08/09/197616/09/1976",
+        "date_of_death": "16/09/1976",
         "detail": "Shot in the back at Buy Cheap Winkel",
-        "latitude": -34.04655452448811,
-        "longitude": 18.483568209897577,
+        "latitude": -34.055102086525714,
+        "longitude": 18.48527989895424,
         "person": "Alfred James Marney",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "25",
         "date_of_death": "11/08/1976",
         "detail": "Shot in head from front at Bottle Store No. 3",
-        "latitude": -33.978545268235756,
-        "longitude": 18.586364968412912,
+        "latitude": -33.98105495963867,
+        "longitude": 18.578868480280452,
         "person": "Andries Kamesi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "31",
         "date_of_death": "08/09/1976",
         "detail": "Shot in back of head at Majiet Stores",
-        "latitude": -33.90794584381203,
-        "longitude": 18.559628513380034,
+        "latitude": -33.91592979179901,
+        "longitude": 18.575250739179275,
         "person": "Angeline Kleinschmidt",
         "place": "Elsies River",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 210981600
     },
     {
         "age": "20",
         "date_of_death": "01/12/1976",
         "detail": "Gunshot wound in head",
-        "latitude": -33.97491497757753,
-        "longitude": 18.5762684505497,
+        "latitude": -33.97228389204602,
+        "longitude": 18.586224856985787,
         "person": "Apton Gidliza Dunga ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 218239200
     },
     {
         "age": "23",
         "date_of_death": "11/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 3",
-        "latitude": -33.97877979714057,
-        "longitude": 18.58540499529944,
+        "latitude": -33.974922455940934,
+        "longitude": 18.57272067567344,
         "person": "Archibald Majambela",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "35",
         "date_of_death": "09/09/1976",
         "detail": "Shot in back at Green Dolphin Bottle Store",
-        "latitude": -33.999398945638205,
-        "longitude": 18.556446544774854,
+        "latitude": -33.989076620103916,
+        "longitude": 18.546286092557054,
         "person": "Basil William Nixkey",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "11",
         "date_of_death": "12/10/1976",
         "detail": "",
-        "latitude": -34.00641752320446,
-        "longitude": 18.562313448607853,
+        "latitude": -34.001098101427715,
+        "longitude": 18.577268094721333,
         "person": "Batwa Sogibag (Sodyiba)",
         "place": "Philippi",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 213919200
     },
     {
         "age": "16",
         "date_of_death": "09/09/1976",
         "detail": "Shot in side of abdomen at Majiet Stores",
-        "latitude": -33.9027229710882,
-        "longitude": 18.577922924232166,
+        "latitude": -33.918546961035105,
+        "longitude": 18.570197231891616,
         "person": "Bazil David Albern ",
         "place": "Elsies River",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "34",
         "date_of_death": "11/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 1 and 2",
-        "latitude": -33.98735729177376,
-        "longitude": 18.571765164890657,
+        "latitude": -33.97895532144472,
+        "longitude": 18.579643124919844,
         "person": "Benjamin Desmond Rhula",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "37",
         "date_of_death": "08/09/1976",
         "detail": "Shot in lungs and heart",
-        "latitude": -34.062160500232736,
-        "longitude": 18.47062634783455,
+        "latitude": -34.062194832047574,
+        "longitude": 18.477019645791213,
         "person": "Bhanudey Dajee",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "25",
         "date_of_death": "26/12/1976",
         "detail": "Gunshot wound in head",
-        "latitude": -33.99404643167378,
-        "longitude": 18.584675194754237,
+        "latitude": -33.97879702403671,
+        "longitude": 18.56906637701991,
         "person": "Brain Komani",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "36",
         "date_of_death": "11/08/1976",
         "detail": "Gunshot wound in chest",
-        "latitude": -33.94369722841656,
-        "longitude": 18.539041066221078,
+        "latitude": -33.94577845958633,
+        "longitude": 18.52882639453206,
         "person": "Cajula Mkafulo",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "16",
@@ -187,37 +205,41 @@
         "longitude": 18.975,
         "person": "Caroline Spasina Hoogaardt",
         "place": "Paarl",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211068000
     },
     {
         "age": "16",
         "date_of_death": "09/09/1976",
         "detail": "Shot in abdomen from front at Cash & Wear Manenberg Avenue",
-        "latitude": -33.986656291381024,
-        "longitude": 18.550920132358694,
+        "latitude": -33.980126743009166,
+        "longitude": 18.551958113502074,
         "person": "Charles Mervin Elliot",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "16",
         "date_of_death": "07/09/1976",
         "detail": "Shot in chest",
-        "latitude": -33.92855884750663,
-        "longitude": 18.604207013021632,
+        "latitude": -33.91820424654009,
+        "longitude": 18.60167454536345,
         "person": "Christiaan Benjamin Kamfer",
         "place": "Ravensmead",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210895200
     },
     {
         "age": "17",
         "date_of_death": "08/09/1976",
         "detail": "Unknown",
-        "latitude": -33.91143863077805,
-        "longitude": 18.606259563925835,
+        "latitude": -33.92323773733288,
+        "longitude": 18.608566891058928,
         "person": "Christie Swart",
         "place": "Ravensmead",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 210981600
     },
     {
         "age": "49",
@@ -227,177 +249,195 @@
         "longitude": 22.5927829,
         "person": "Christopher Olivier",
         "place": "Kuilsrivier",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211240800
     },
     {
         "age": "16",
         "date_of_death": "10/09/1976",
         "detail": "Cape Town Shot in head from front at Green Dolphin Bottle Store",
-        "latitude": -33.98593520516626,
-        "longitude": 18.554121043646735,
+        "latitude": -33.98045267646333,
+        "longitude": 18.56296662768617,
         "person": "Christopher Appolis",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211154400
     },
     {
         "age": "26",
-        "date_of_death": "11/08/197621/08/1976",
+        "date_of_death": "21/08/1976",
         "detail": "Shot in abdomen from front at Bottle Store No. 1 and 2",
-        "latitude": -33.98673608100556,
-        "longitude": 18.57942655327304,
+        "latitude": -33.977316425116946,
+        "longitude": 18.587946018306184,
         "person": "Christopher Gobile",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 209426400
     },
     {
         "age": "15",
-        "date_of_death": "25/08/197631/08/1976",
+        "date_of_death": "31/08/1976",
         "detail": "Shot through side of head",
-        "latitude": -33.952585391567524,
-        "longitude": 18.549326367298967,
+        "latitude": -33.95692714697408,
+        "longitude": 18.547793001775396,
         "person": "Christopher Truter",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210290400
     },
     {
         "age": "28",
         "date_of_death": "09/09/1976",
         "detail": "Shot in head from behind at Pep Stores",
-        "latitude": -34.06157384552485,
-        "longitude": 18.48210469768562,
+        "latitude": -34.054813586789955,
+        "longitude": 18.476582242812064,
         "person": "Clive Isaacs",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "Unknown",
         "date_of_death": "Died prior to 15/09/1976",
         "detail": "Unknown",
-        "latitude": -34.17542599150052,
-        "longitude": 22.149586819817202,
+        "latitude": -34.188544536808976,
+        "longitude": 22.161693340716266,
         "person": "Cornelius Lucas",
         "place": "Mossel Bay",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211586400
     },
     {
         "age": "18",
         "date_of_death": "09/09/1976",
         "detail": "Shot in back and small of back at Vistula Tavern Bottle Store",
-        "latitude": -33.99776265072498,
-        "longitude": 18.545402888624743,
+        "latitude": -33.9996978527249,
+        "longitude": 18.56085045324449,
         "person": "Cyril Ivan Limba",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "24",
         "date_of_death": "11/08/1976",
         "detail": "Gunshot wound in the chest",
-        "latitude": -33.944693187002265,
-        "longitude": 18.5343307835011,
+        "latitude": -33.95243919900776,
+        "longitude": 18.52913289860173,
         "person": "Dambile Sidwell Mdayi ",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "23",
         "date_of_death": "12/08/1976",
         "detail": "Shot in stomach from front at Bottle Store No. 1 and 2",
-        "latitude": -33.97923835115335,
-        "longitude": 18.58626037588372,
+        "latitude": -33.97851693734619,
+        "longitude": 18.570621836499743,
         "person": "Daniel Mrwebi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "30",
         "date_of_death": "25/08/1976",
         "detail": "Shot in back",
-        "latitude": -33.946836884514575,
-        "longitude": 18.559949991798756,
+        "latitude": -33.96160611872549,
+        "longitude": 18.560718724165053,
         "person": "Dawood Essop",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 209772000
     },
     {
         "age": "23",
         "date_of_death": "27/12/1976",
         "detail": "Gunshot wound in chest",
-        "latitude": -33.944935794987174,
-        "longitude": 18.529849864949586,
+        "latitude": -33.93765042858655,
+        "longitude": 18.52701368325294,
         "person": "Dennis Bantu Dlanza ",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "20",
         "date_of_death": "12/08/1976",
         "detail": "Shot in chest from front",
-        "latitude": -33.99534412748496,
-        "longitude": 18.5621929977432,
+        "latitude": -33.99898663149145,
+        "longitude": 18.572344506043923,
         "person": "Douglas Majamba",
         "place": "Philippi",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "25",
         "date_of_death": "07/09/1976",
         "detail": "Shot in right side of chest and abdomen",
-        "latitude": -33.92935770272692,
-        "longitude": 18.600489757920677,
+        "latitude": -33.91678144507755,
+        "longitude": 18.614808069251865,
         "person": "Edward Fish",
         "place": "Ravensmead",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210895200
     },
     {
         "age": "26",
         "date_of_death": "26/12/1976",
         "detail": "Axed to death",
-        "latitude": -33.98825654628158,
-        "longitude": 18.57999632120199,
+        "latitude": -33.989516916845204,
+        "longitude": 18.584848876439533,
         "person": "Ellen Makaluza ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "26",
         "date_of_death": "05/02/1977",
         "detail": "Gunshot wound in abdomen",
-        "latitude": -33.99899116508753,
-        "longitude": 18.56300550238839,
+        "latitude": -33.99621554465996,
+        "longitude": 18.557969248159328,
         "person": "Errol Johnson ",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 223941600
     },
     {
         "age": "18",
         "date_of_death": "11/08/1976",
         "detail": "Shot in head from front in front of Langa police station",
-        "latitude": -33.94266462406578,
-        "longitude": 18.527288818184427,
+        "latitude": -33.949268256938275,
+        "longitude": 18.532009091773073,
         "person": "Ezekiel Xolile Mosie",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "16",
         "date_of_death": "09/09/1976",
         "detail": "Shot in neck from behind at Green Dolphin Bottle Store",
-        "latitude": -33.992607955112575,
-        "longitude": 18.550576359230025,
+        "latitude": -33.996039244343955,
+        "longitude": 18.553202608553597,
         "person": "Faried Cook",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "18",
         "date_of_death": "12/08/1976",
         "detail": "Shot in chest from front",
-        "latitude": -33.990253740356785,
-        "longitude": 18.57475692752185,
+        "latitude": -33.98786837448262,
+        "longitude": 18.579258163936892,
         "person": "Fetras Genu",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "19",
@@ -407,297 +447,327 @@
         "longitude": 18.5032529,
         "person": "Gary Sandy Barnardo",
         "place": "Grassy Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 203724000
     },
     {
         "age": "21",
         "date_of_death": "02/09/1976",
         "detail": "Shot in chest",
-        "latitude": -33.99404286474947,
-        "longitude": 18.54202854283037,
+        "latitude": -33.986889173398836,
+        "longitude": 18.539493913895008,
         "person": "Gasant Carolissen",
         "place": "Hanover Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210463200
     },
     {
         "age": "15",
         "date_of_death": "09/09/1976",
         "detail": "Shot in left shoulder from behind",
-        "latitude": -34.05046129455489,
-        "longitude": 18.473203843015877,
+        "latitude": -34.04722958747129,
+        "longitude": 18.47592055727456,
         "person": "George Williams",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "Unknown",
         "date_of_death": "02/01/1977",
         "detail": "Beaten to death",
-        "latitude": -33.97563354149402,
-        "longitude": 18.573496427853147,
+        "latitude": -33.98273668273555,
+        "longitude": 18.577492001356447,
         "person": "Gladwell Maneli ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 221004000
     },
     {
         "age": "20",
         "date_of_death": "13/09/1976",
         "detail": "Shot in chest from front",
-        "latitude": -34.05552238129912,
-        "longitude": 18.477233368656176,
+        "latitude": -34.059380172435624,
+        "longitude": 18.480892132004477,
         "person": "Glynn Petersen",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211413600
     },
     {
         "age": "23",
         "date_of_death": "13/08/1976",
         "detail": "Shot in stomach from front at Bottle Store No. 1 and 2",
-        "latitude": -33.98642196647517,
-        "longitude": 18.575807865805633,
+        "latitude": -33.984044600734784,
+        "longitude": 18.585874822458724,
         "person": "Godfrey Phetelo Zuba",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208735200
     },
     {
         "age": "26",
         "date_of_death": "26/12/1976",
         "detail": "Killed by migrant workers",
-        "latitude": -33.990527218582876,
-        "longitude": 18.567298422279425,
+        "latitude": -33.99462633857589,
+        "longitude": 18.56680945248551,
         "person": "Golden Bakubaku ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "27",
         "date_of_death": "27/12/1976",
         "detail": "Unknown",
-        "latitude": -33.988954022410766,
-        "longitude": 18.570195953427135,
+        "latitude": -33.98406348062225,
+        "longitude": 18.58449086487555,
         "person": "Government Jelemsi",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "36",
         "date_of_death": "12/08/1976",
         "detail": "Shot in back from behind at Mncede Store, Winkelsentrum",
-        "latitude": -33.937227987383615,
-        "longitude": 18.52586856201557,
+        "latitude": -33.940808392802055,
+        "longitude": 18.537441561782078,
         "person": "Grayton Sidondi",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "16",
         "date_of_death": "25/10/1976",
         "detail": "Shot in back",
-        "latitude": -33.97987204639184,
-        "longitude": 18.574531743350708,
+        "latitude": -33.991484034210366,
+        "longitude": 18.57602246782895,
         "person": "Harrison Oliphant",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 215042400
     },
     {
         "age": "30",
         "date_of_death": "26/12/1976",
         "detail": "Shot to death",
-        "latitude": -33.98109110295733,
-        "longitude": 18.586052073887736,
+        "latitude": -33.97818996376797,
+        "longitude": 18.57902135446872,
         "person": "Harry Kwisomba ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "30",
         "date_of_death": "02/09/1976",
         "detail": "Shot through lungs from behind at Winkelsentrum",
-        "latitude": -33.987434646492524,
-        "longitude": 18.52717383822034,
+        "latitude": -33.99485312331362,
+        "longitude": 18.542310995317877,
         "person": "Henry A.J.D Ferguson",
         "place": "Hanover Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210463200
     },
     {
         "age": "Unknown",
         "date_of_death": "27/12/1976",
         "detail": "Migrant clashes \u2013 24 people killed",
-        "latitude": -33.99416811969687,
-        "longitude": 18.570586494001855,
+        "latitude": -33.97907185917795,
+        "longitude": 18.57559603253242,
         "person": "Henry Kwisamba",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "16",
         "date_of_death": "25/08/1976",
         "detail": "Shot in chest from front at Junction Stores",
-        "latitude": -33.95849025354516,
-        "longitude": 18.559720574462602,
+        "latitude": -33.95361088263086,
+        "longitude": 18.54318975026101,
         "person": "Isaac Barnes",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 209772000
     },
     {
         "age": "Unknown",
         "date_of_death": "Buried on 14/9/1976",
         "detail": "Unknown",
-        "latitude": -34.17875765568571,
-        "longitude": 22.14777220985332,
+        "latitude": -34.17608283187216,
+        "longitude": 22.156560775040152,
         "person": "Isaac Bezuidenhout ",
         "place": "Mossel Bay",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211500000
     },
     {
         "age": "32",
         "date_of_death": "12/08/1976",
         "detail": "Shot in right side of head at Bottle Store No. 2",
-        "latitude": -33.94808346657175,
-        "longitude": 18.538832795838267,
+        "latitude": -33.94456628121856,
+        "longitude": 18.52774421841521,
         "person": "Ivy Fisher",
         "place": "Langa",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 208648800
     },
     {
         "age": "Unknown",
         "date_of_death": "26/12/1976",
         "detail": "Migrant clashes \u2013 24 people killed",
-        "latitude": -33.986172083575816,
-        "longitude": 18.584639408953414,
+        "latitude": -33.97805194550701,
+        "longitude": 18.57640450397816,
         "person": "Jackson Gishi",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "15",
         "date_of_death": "01/12/1976",
         "detail": "Gunshot wound in chest",
-        "latitude": -33.974088675166115,
-        "longitude": 18.587319000327668,
+        "latitude": -33.985021949382315,
+        "longitude": 18.587518103256773,
         "person": "James Mphutumi Mbali ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 218239200
     },
     {
         "age": "19",
         "date_of_death": "16/09/1976",
         "detail": "Shot in chest from front",
-        "latitude": -33.944111673486276,
-        "longitude": 18.56094257709448,
+        "latitude": -33.94705461161885,
+        "longitude": 18.56225020558201,
         "person": "Jeffrey Andrew Vermeulen",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "39",
         "date_of_death": "07/01/1977",
         "detail": "Gunshot wound in neck",
-        "latitude": -33.983797078317295,
-        "longitude": 18.58031095359032,
+        "latitude": -33.98326001654333,
+        "longitude": 18.57984531908255,
         "person": "Joe Pakamile Magasana ",
         "place": "Nyanga East",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 221436000
     },
     {
         "age": "35",
         "date_of_death": "08/09/1976",
         "detail": "Shot in left side of chest at the Lookout Shop",
-        "latitude": -34.04748725021483,
-        "longitude": 18.473795347051766,
+        "latitude": -34.057119860213874,
+        "longitude": 18.477406363721656,
         "person": "John Daniels",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "16",
         "date_of_death": "09/09/1976",
         "detail": "Shot in head from behind at Mustapha General Dealers",
-        "latitude": -33.98584861948895,
-        "longitude": 18.545601821580977,
+        "latitude": -33.9948827829977,
+        "longitude": 18.55736467179729,
         "person": "John Davids",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "15",
         "date_of_death": "09/09/1976",
         "detail": "Shot in arm and chest from left at Green Dolphin Bottle Store",
-        "latitude": -33.99404887894277,
-        "longitude": 18.54910000556397,
+        "latitude": -33.987364395171085,
+        "longitude": 18.549531395882394,
         "person": "John Jacobs",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "20",
         "date_of_death": "09/09/1976",
         "detail": "Shot in stomach from front",
-        "latitude": -34.00098317073383,
-        "longitude": 18.528397585781132,
+        "latitude": -33.986430894707624,
+        "longitude": 18.536372806160173,
         "person": "John Opperman",
         "place": "Hanover Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "22",
-        "date_of_death": "11/08/197603/09/1976",
+        "date_of_death": "03/09/1976",
         "detail": "Shot in abdomen from front at Bottle Store No. 1 and 2",
-        "latitude": -33.98360179555787,
-        "longitude": 18.582024011224117,
+        "latitude": -33.98223770858277,
+        "longitude": 18.58207274001783,
         "person": "Joseph Kumalo",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210549600
     },
     {
         "age": "25",
         "date_of_death": "12/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 1 and 2",
-        "latitude": -33.985028593223085,
-        "longitude": 18.569650666295647,
+        "latitude": -33.97632204785322,
+        "longitude": 18.585537667574123,
         "person": "Joseph Nxabi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "16",
-        "date_of_death": "08/09/197609/09/1976",
+        "date_of_death": "09/09/1976",
         "detail": "Shot in side of head and upper body at Majiet Stores",
-        "latitude": -33.9179227873656,
-        "longitude": 18.56544397730446,
+        "latitude": -33.90253503267387,
+        "longitude": 18.576501528893086,
         "person": "Jurie Muller",
         "place": "Elsies River",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "45",
         "date_of_death": "09/09/1976",
         "detail": "Shot in right buttock from behind at Sherwood Bottle Store",
-        "latitude": -33.80642358395522,
-        "longitude": 18.51215531438995,
+        "latitude": -33.820405632604114,
+        "longitude": 18.511187437418716,
         "person": "Karel Meyer",
         "place": "Sherwood Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "14",
         "date_of_death": "09/09/1976",
         "detail": "Shot in chest from front",
-        "latitude": -34.009658978779804,
-        "longitude": 18.576432230867912,
+        "latitude": -34.01305304218703,
+        "longitude": 18.560937896149817,
         "person": "Lawrence Buba",
         "place": "Philippi",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "26",
         "date_of_death": "26/12/1976",
         "detail": "Unknown",
-        "latitude": -33.98602672361393,
-        "longitude": 18.577482381350315,
+        "latitude": -33.99072058284025,
+        "longitude": 18.568582859294573,
         "person": "Lawrence Jonas ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "32",
@@ -707,117 +777,129 @@
         "longitude": 18.4223,
         "person": "Luke Mazwembe ",
         "place": "Caledon Square",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210463200
     },
     {
         "age": "25",
         "date_of_death": "11/08/1976",
         "detail": "Shot in right shoulder from behind at Winkelsentrum",
-        "latitude": -33.94932779832998,
-        "longitude": 18.535950740625502,
+        "latitude": -33.945763107061865,
+        "longitude": 18.521725198275295,
         "person": "M. B. A Mzwamadoda ",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "20",
         "date_of_death": "27/12/1976",
         "detail": "Gunshot wound in head",
-        "latitude": -33.979816133705974,
-        "longitude": 18.582281700680152,
+        "latitude": -33.98376102765481,
+        "longitude": 18.5693318425049,
         "person": "Mava Gaya",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "34",
         "date_of_death": "11/08/1976",
         "detail": "Gunshot wound in head from front at Bottle Store No. 1 and 2",
-        "latitude": -33.991590484905636,
-        "longitude": 18.57765346862905,
+        "latitude": -33.9894980848061,
+        "longitude": 18.572978424471092,
         "person": "Maxwell Sitshongaye",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "16",
         "date_of_death": "09/09/1976",
         "detail": "Unknown",
-        "latitude": -33.97233804196969,
-        "longitude": 18.589197718732507,
+        "latitude": -33.97827240298621,
+        "longitude": 18.569838222972148,
         "person": "Mazwi Mncedidi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "16",
         "date_of_death": "08/09/1976",
         "detail": "Shot in back at Eureka Traders",
-        "latitude": -33.906606396496414,
-        "longitude": 18.572622955885663,
+        "latitude": -33.917050527182205,
+        "longitude": 18.57537497174128,
         "person": "Mervyn Jacobs",
         "place": "Elsies River",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "28",
         "date_of_death": "12/08/1976",
         "detail": "Shot in head from front at Bottle Store No. 3",
-        "latitude": -33.97544750689559,
-        "longitude": 18.57704115301314,
+        "latitude": -33.97613238293725,
+        "longitude": 18.57711664495028,
         "person": "Mhlangabesi Edwin Gushamn",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "58",
         "date_of_death": "26/12/1976",
         "detail": "Gunshot wound in chest",
-        "latitude": -33.980054435054875,
-        "longitude": 18.5905706813283,
+        "latitude": -33.98512004457726,
+        "longitude": 18.589543169958414,
         "person": "Michael Bota ",
         "place": "Nyanga East",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "28",
         "date_of_death": "13/12/1976",
         "detail": "Unknown",
-        "latitude": -33.9438769693381,
-        "longitude": 18.520292022131876,
+        "latitude": -33.946914834760335,
+        "longitude": 18.524006417749643,
         "person": "Michael Tabalaza ",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 219276000
     },
     {
         "age": "Unknown",
         "date_of_death": "06/09/1976",
         "detail": "Unknown",
-        "latitude": -33.987924551111846,
-        "longitude": 18.57545114422441,
+        "latitude": -33.99087878162349,
+        "longitude": 18.577179873624303,
         "person": "Mncedisi Xhiphu",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210808800
     },
     {
         "age": "24",
         "date_of_death": "16/09/1976",
         "detail": "Shot in back",
-        "latitude": -33.96758302114239,
-        "longitude": 18.496979348848043,
+        "latitude": -33.974836030354936,
+        "longitude": 18.513488272214428,
         "person": "Mogamat Rushaad Davids",
         "place": "Athlone",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "5",
         "date_of_death": "26/12/1976",
         "detail": "Shot to death",
-        "latitude": -33.98672159197209,
-        "longitude": 18.573716608910132,
+        "latitude": -33.991971233435166,
+        "longitude": 18.576819386698414,
         "person": "Monica Makundayi ",
         "place": "Gugulethu",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 220399200
     },
     {
         "age": "22",
@@ -827,177 +909,195 @@
         "longitude": 18.5777778,
         "person": "Moses Prince",
         "place": "Matroosfontein",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211327200
     },
     {
         "age": "11",
         "date_of_death": "14/09/1976",
         "detail": "Shot in stomach from front",
-        "latitude": -33.98582704866409,
-        "longitude": 18.5792419213562,
+        "latitude": -33.98030348204786,
+        "longitude": 18.581791282800896,
         "person": "Mzimkulu Crosby Ndingane",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211500000
     },
     {
         "age": "10",
         "date_of_death": "07/09/1976",
         "detail": "",
-        "latitude": -33.91953098097082,
-        "longitude": 18.598070969835803,
+        "latitude": -33.92369391016103,
+        "longitude": 18.606267060917656,
         "person": "Naomi van Kerke",
         "place": "Ravensmead",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 210895200
     },
     {
         "age": "15",
         "date_of_death": "16/09/1976",
         "detail": "Shot in chest and abdomen from an angle",
-        "latitude": -33.99269188993601,
-        "longitude": 18.55388061537952,
+        "latitude": -33.99467348074291,
+        "longitude": 18.54628128702577,
         "person": "Nazeem Khan ",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "48",
         "date_of_death": "26/12/1976",
         "detail": "Axed to death",
-        "latitude": -33.98566032052334,
-        "longitude": 18.581474271293644,
+        "latitude": -33.97483267966485,
+        "longitude": 18.57193787490699,
         "person": "Nelson Guwa ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "20",
-        "date_of_death": "09/09/76",
+        "date_of_death": "09/09/1976",
         "detail": "Shot in stomach from front at Buy Cheap Winkel",
-        "latitude": -34.045955025383755,
-        "longitude": 18.46662657985135,
+        "latitude": -34.053734373964055,
+        "longitude": 18.485861445225183,
         "person": "Neville James George Botha",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "19",
         "date_of_death": "08/09/1976",
         "detail": "Shot in back at Robot Supermarket",
-        "latitude": -34.05798281921497,
-        "longitude": 18.481671499433105,
+        "latitude": -34.05518936345509,
+        "longitude": 18.467280284783566,
         "person": "Nicholas May",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "22",
         "date_of_death": "11/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 3",
-        "latitude": -33.97509911722633,
-        "longitude": 18.58310458257575,
+        "latitude": -33.98261149374158,
+        "longitude": 18.58293831569043,
         "person": "Nicholas Sipho Ndunga",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "22",
         "date_of_death": "11/08/1976",
         "detail": "Shot in right shoulder from behind at Bottle Store No. 1 and 2",
-        "latitude": -33.99130425971628,
-        "longitude": 18.57857632845354,
+        "latitude": -33.98691279720028,
+        "longitude": 18.581543471632834,
         "person": "Nkululo Solomon Masiba",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "13",
         "date_of_death": "02/09/1976",
         "detail": "Gunshot wound",
-        "latitude": -33.99779326506389,
-        "longitude": 18.530939655553933,
+        "latitude": -33.98281689367339,
+        "longitude": 18.53973812264721,
         "person": "Noel John Adriaanse ",
         "place": "Hanover Park",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210463200
     },
     {
         "age": "22",
         "date_of_death": "11/08/1976",
         "detail": "Gunshot wound in chest",
-        "latitude": -33.97292953656862,
-        "longitude": 18.58522392010494,
+        "latitude": -33.98869069382278,
+        "longitude": 18.57336073809786,
         "person": "Norman Ndzube",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "Unknown",
         "date_of_death": "25-26/12/1976",
         "detail": "Migrant clashes \u2013 24 people killed",
-        "latitude": -33.99068040035615,
-        "longitude": 18.570487211152322,
+        "latitude": -33.99153670437771,
+        "longitude": 18.582737927391452,
         "person": "Nosipho Mboma",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "22",
         "date_of_death": "08/09/1976",
         "detail": "Shot in left side of chest",
-        "latitude": -34.05229758278199,
-        "longitude": 18.477263650649846,
+        "latitude": -34.05515161437948,
+        "longitude": 18.478526975755937,
         "person": "Nova van der Ross",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "17",
         "date_of_death": "11/09/1976",
         "detail": "Reported in official police list as a casualty not resulting from police action",
-        "latitude": -33.961209137966215,
-        "longitude": 18.55561708608263,
+        "latitude": -33.951167033420795,
+        "longitude": 18.55615091687504,
         "person": "Owen Leukes",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211240800
     },
     {
         "age": "24",
         "date_of_death": "09/09/1976",
         "detail": "Shot in back of head at Majiet Stores",
-        "latitude": -33.92004455590668,
-        "longitude": 18.56690420075493,
+        "latitude": -33.90317514482573,
+        "longitude": 18.57093065763961,
         "person": "Patrick John Daniels",
         "place": "Elsies River",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "35",
         "date_of_death": "11/08/1976",
         "detail": "Shot through heart from front at Bottle Store No. 4",
-        "latitude": -33.947426235234225,
-        "longitude": 18.523567156335538,
+        "latitude": -33.94504625802898,
+        "longitude": 18.53743482823168,
         "person": "Petrick Nzayiya",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "35",
         "date_of_death": "07/09/1976",
         "detail": "Shot in stomach from front",
-        "latitude": -33.931032221077764,
-        "longitude": 18.614649917221612,
+        "latitude": -33.92898592280549,
+        "longitude": 18.60844500056891,
         "person": "Phillip Moses",
         "place": "Ravensmead",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210895200
     },
     {
         "age": "32",
         "date_of_death": "16/09/1976",
         "detail": "Shot in side of head",
-        "latitude": -33.96685433323802,
-        "longitude": 18.50613278261753,
+        "latitude": -33.963270279932324,
+        "longitude": 18.504789952998927,
         "person": "Phyllis Peters",
         "place": "Athlone",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211672800
     },
     {
         "age": "24",
@@ -1007,87 +1107,96 @@
         "longitude": 20.121103,
         "person": "Pieter Africa",
         "place": "Montagu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 217634400
     },
     {
         "age": "23",
         "date_of_death": "07/09/1976",
         "detail": "Shot in Darling Street Reported in police list as casualty not resulting from police action",
-        "latitude": -33.920987704559124,
-        "longitude": 18.4166858200579,
+        "latitude": -33.93562788920775,
+        "longitude": 18.426112158260043,
         "person": "Radiwaan Yasin ",
         "place": "Cape Town",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210895200
     },
     {
         "age": "34",
         "date_of_death": "08/09/1976",
         "detail": "Shot in neck at Pep Stores",
-        "latitude": -34.05038338374327,
-        "longitude": 18.470876861612396,
+        "latitude": -34.045824700128534,
+        "longitude": 18.47076256683392,
         "person": "Ralph Ronald Lee",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "37",
         "date_of_death": "11/08/1976",
         "detail": "Shot through neck from behind at Bottle Store No. 4",
-        "latitude": -33.94686021857719,
-        "longitude": 18.52695879524435,
+        "latitude": -33.94420982599593,
+        "longitude": 18.52758725562634,
         "person": "Rebecca Majeke ",
         "place": "Langa",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 208562400
     },
     {
         "age": "18",
         "date_of_death": "08/09/1976",
         "detail": "Shot in back, neck and head from behind at Robot Supermarket",
-        "latitude": -34.06133545057911,
-        "longitude": 18.47018191402936,
+        "latitude": -34.05553829770871,
+        "longitude": 18.482142718999857,
         "person": "Reginald Charles Matheson",
         "place": "Retreat",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "4 months",
         "date_of_death": "15/01/1977",
         "detail": "Died as a result of migrant workers and riot police attack",
-        "latitude": -33.99530928164447,
-        "longitude": 18.56720818730904,
+        "latitude": -33.984616477789686,
+        "longitude": 18.583902130455964,
         "person": "Richard Khalipha ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 222127200
     },
     {
         "age": "17",
         "date_of_death": "09/09/1976",
         "detail": "Gunshot wound in back",
-        "latitude": -33.99274029272883,
-        "longitude": 18.553403891645605,
+        "latitude": -33.98280726483304,
+        "longitude": 18.548272249763475,
         "person": "Richard Mncedisi Xipa ",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "19",
         "date_of_death": "17/09/1976",
         "detail": "Shot in chest from front",
-        "latitude": -33.98501483612559,
-        "longitude": 18.58620745962467,
+        "latitude": -33.981589358067204,
+        "longitude": 18.57770916574768,
         "person": "Robson Mvukuse",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211759200
     },
     {
         "age": "24",
         "date_of_death": "25/08/1976",
         "detail": "Shot in the back in front at Post Office",
-        "latitude": -33.95807196752538,
-        "longitude": 18.557224854229766,
+        "latitude": -33.95640832544017,
+        "longitude": 18.557408060795588,
         "person": "Rodney Edward Cooke",
         "place": "Bonteheuwel",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 209772000
     },
     {
         "age": "Unknown",
@@ -1097,7 +1206,8 @@
         "longitude": 18.869167,
         "person": "Ronald Carolissen ",
         "place": "Stellenbosch",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 212191200
     },
     {
         "age": "19",
@@ -1107,7 +1217,8 @@
         "longitude": 18.5488889,
         "person": "Ronald Godfrey Charles October",
         "place": "Heideveld",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "25",
@@ -1117,37 +1228,41 @@
         "longitude": 18.5294444,
         "person": "Ronald Harris",
         "place": "Silvertown",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "30",
         "date_of_death": "27/12/1976",
         "detail": "Unknown",
-        "latitude": -33.98739409699026,
-        "longitude": 18.588397798630666,
+        "latitude": -33.98550023907799,
+        "longitude": 18.582646031585824,
         "person": "Sabelo Ntlabathi ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "51",
         "date_of_death": "09/09/1976",
         "detail": "Shot whilst in a taxi",
-        "latitude": -33.73678226451787,
-        "longitude": 18.96829615685539,
+        "latitude": -33.74057113947935,
+        "longitude": 18.983352661515394,
         "person": "Sally Jane Viljoen",
         "place": "Paarl East",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211068000
     },
     {
         "age": "42",
         "date_of_death": "11/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 1 and 2",
-        "latitude": -33.97270589625618,
-        "longitude": 18.57194535213098,
+        "latitude": -33.98949353682844,
+        "longitude": 18.586849526322446,
         "person": "Samuel Louw",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "18",
@@ -1157,87 +1272,96 @@
         "longitude": 18.5175,
         "person": "Sandra Joyce Adams",
         "place": "Kewtown",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211672800
     },
     {
         "age": "12",
         "date_of_death": "03/09/1976",
         "detail": "Shot in right side of head at Klipfontein Rd, Roykers Supply Store",
-        "latitude": -33.96110324331815,
-        "longitude": 18.500541706186823,
+        "latitude": -33.975205071123796,
+        "longitude": 18.50385373239489,
         "person": "Sandra Pieters",
         "place": "Athlone",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 210549600
     },
     {
         "age": "15",
         "date_of_death": "03/09/1976",
         "detail": "Shot through side of neck and chest",
-        "latitude": -33.93217781825665,
-        "longitude": 18.410985414251854,
+        "latitude": -33.91978143210506,
+        "longitude": 18.417050480042814,
         "person": "Shaheed Jacobs",
         "place": "Cape Town",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210549600
     },
     {
         "age": "19",
         "date_of_death": "16/09/1976",
         "detail": "Gunshot wounds in head, chest and abdomen",
-        "latitude": -33.991974262354255,
-        "longitude": 18.57345845788659,
+        "latitude": -33.97951015670611,
+        "longitude": 18.58950218137642,
         "person": "Sidwell Tandinkosi Donti",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "38",
         "date_of_death": "11/08/1976",
         "detail": "Shot in small of back and loin from behind at Bottle Store No. 3",
-        "latitude": -33.9398749753858,
-        "longitude": 18.522005689216442,
+        "latitude": -33.947772366847026,
+        "longitude": 18.53779128081299,
         "person": "Sifanelo Kenneth Nduna",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "15",
         "date_of_death": "Unknown",
         "detail": "Gunshot wound in neck",
-        "latitude": -33.9761417350148,
-        "longitude": 18.570204775313194,
+        "latitude": -33.98814458532113,
+        "longitude": 18.575660709138983,
         "person": "Sitembiso Richard Bam ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": -1
     },
     {
         "age": "29",
         "date_of_death": "07/01/1977",
         "detail": "Gunshot wound",
-        "latitude": -33.9892163361599,
-        "longitude": 18.57510881106428,
+        "latitude": -33.97317433702868,
+        "longitude": 18.575367713888895,
         "person": "Sithembiso Michael Tabalanka ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 221436000
     },
     {
         "age": "17",
         "date_of_death": "16/09/1976",
         "detail": "Shot in front of head",
-        "latitude": -33.9787020020499,
-        "longitude": 18.58442777092463,
+        "latitude": -33.989098570522685,
+        "longitude": 18.574781105383305,
         "person": "Sonnyboy Zantsi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "26",
         "date_of_death": "27/12/1976",
         "detail": "Gunshot wound in back",
-        "latitude": -33.99063538822696,
-        "longitude": 18.577515751941306,
+        "latitude": -33.97800754854422,
+        "longitude": 18.57209482656838,
         "person": "Stanley Mlamli Hlakula ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     },
     {
         "age": "17",
@@ -1247,77 +1371,85 @@
         "longitude": 18.5068931,
         "person": "Suleman Gasnola",
         "place": "Lansdowne",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "32",
         "date_of_death": "26/08/1976",
         "detail": "Beaten to death",
-        "latitude": -33.97340884315972,
-        "longitude": 18.58230042776204,
+        "latitude": -33.98219332511685,
+        "longitude": 18.579386374061535,
         "person": "Sydney Barnes ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 209858400
     },
     {
         "age": "18",
         "date_of_death": "28/12/1976",
         "detail": "Shot to death",
-        "latitude": -33.974038953384394,
-        "longitude": 18.573661707360543,
+        "latitude": -33.9908466203324,
+        "longitude": 18.579343904085064,
         "person": "Sydney Gongxeka",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220572000
     },
     {
         "age": "17",
         "date_of_death": "11/08/1976",
         "detail": "Shotgun wound in back shot from behind at Bottle Store No. 1 and 2",
-        "latitude": -33.99108132215263,
-        "longitude": 18.586919107386297,
+        "latitude": -33.98855089110482,
+        "longitude": 18.58007822315088,
         "person": "Talford Ntleko",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "19",
         "date_of_death": "11/08/1976",
         "detail": "Gunshot wound in head",
-        "latitude": -33.9766941499675,
-        "longitude": 18.587350336111705,
+        "latitude": -33.99049061765345,
+        "longitude": 18.580818450513547,
         "person": "Tamsanqa Michael Tshayi",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "19",
         "date_of_death": "17/12/1976",
         "detail": "Gunshot wound in back",
-        "latitude": -33.97804396890705,
-        "longitude": 18.56788126619053,
+        "latitude": -33.99215954772545,
+        "longitude": 18.584108305189826,
         "person": "Thobi Jaho ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 219621600
     },
     {
         "age": "Unknown",
         "date_of_death": "15-16/09/1976",
         "detail": "Killed during stayaway",
-        "latitude": -33.99008267127158,
-        "longitude": 18.574969061555237,
+        "latitude": -33.987623137309285,
+        "longitude": 18.58114681398095,
         "person": "Tolika Mafumana",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "45",
         "date_of_death": "11/08/1976",
         "detail": "Shot in calf, buttock and chest from behind at Bottle Store No. 3",
-        "latitude": -33.94943344112051,
-        "longitude": 18.5225595163024,
+        "latitude": -33.93974014029102,
+        "longitude": 18.53953946923307,
         "person": "Tutu John Lesele",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "Unknown",
@@ -1327,146 +1459,161 @@
         "longitude": 22.204206,
         "person": "Unknown person ",
         "place": "Oudtshoorn",
-        "sex": "Unknown"
+        "sex": "Unknown",
+        "timestamp": 211154400
     },
     {
         "age": "31",
         "date_of_death": "31/12/1976",
         "detail": "Reported missing during December disturbances",
-        "latitude": -33.98788138108457,
-        "longitude": 18.579969312757274,
+        "latitude": -33.97302017232097,
+        "longitude": 18.582536385738536,
         "person": "Victor August ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220831200
     },
     {
         "age": "18",
         "date_of_death": "16/09/1976",
         "detail": "Shot in front of head",
-        "latitude": -33.98263217758123,
-        "longitude": 18.570704545707258,
+        "latitude": -33.988009470696156,
+        "longitude": 18.57053696203908,
         "person": "Victor Mzwandile Nokasa",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211672800
     },
     {
         "age": "18",
         "date_of_death": "Unknown",
         "detail": "Unknown",
-        "latitude": -33.97592562768501,
-        "longitude": 18.580420604915602,
+        "latitude": -33.984734435703565,
+        "longitude": 18.571810578270842,
         "person": "Victor Woukaza ",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": -1
     },
     {
         "age": "17",
-        "date_of_death": "11/08/197612/08/1976",
+        "date_of_death": "12/08/1976",
         "detail": "Shot in stomach from front at Bottle Store No. 1 and 2",
-        "latitude": -33.982213733581325,
-        "longitude": 18.58707663730748,
+        "latitude": -33.985392649249945,
+        "longitude": 18.5849424595717,
         "person": "Virginia Nodada",
         "place": "Gugulethu",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 208648800
     },
     {
         "age": "26",
         "date_of_death": "11/08/1976",
         "detail": "Shot in chest from front at Bottle Store No. 3",
-        "latitude": -33.97461886570868,
-        "longitude": 18.58547314483264,
+        "latitude": -33.97859092176776,
+        "longitude": 18.583948648784975,
         "person": "Vukile Abraham Mteto",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "28",
         "date_of_death": "09/09/1976",
         "detail": "Shot through chest from left at Vistula Tavern Bottle Store",
-        "latitude": -33.997840007452474,
-        "longitude": 18.54454984958101,
+        "latitude": -33.99770574746379,
+        "longitude": 18.55451512864816,
         "person": "Vuyisile Wellington Zondani",
         "place": "Manenberg",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 211068000
     },
     {
         "age": "26",
         "date_of_death": "26/12/1976",
         "detail": "Gunshot wound in back",
-        "latitude": -33.98611228004339,
-        "longitude": 18.580469903561017,
+        "latitude": -33.978622607899155,
+        "longitude": 18.577987548897884,
         "person": "Vuyo Howard Ntlantsana",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "23",
         "date_of_death": "12/08/1976",
         "detail": "Shot in head from front at Bottle Store No. 3, Bantu Administration",
-        "latitude": -33.98868767376555,
-        "longitude": 18.578225148800684,
+        "latitude": -33.975675935460764,
+        "longitude": 18.58087500050028,
         "person": "Welili Reginald Mshudulu",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208648800
     },
     {
         "age": "50",
         "date_of_death": "26/12/1976",
         "detail": "Gunshot wound in lower body",
-        "latitude": -33.98463808870023,
-        "longitude": 18.585510756357916,
+        "latitude": -33.981572674354595,
+        "longitude": 18.577350683452302,
         "person": "Willem Botha ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "22",
         "date_of_death": "11/08/1976",
         "detail": "Shot in abdominal cavity from front at Bottle Store No. 1 and 2",
-        "latitude": -33.97778418857107,
-        "longitude": 18.58938225140242,
+        "latitude": -33.98293482069288,
+        "longitude": 18.58265366859925,
         "person": "Wiseman Lutiya",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 208562400
     },
     {
         "age": "45",
         "date_of_death": "09/09/1976",
         "detail": "Inquest revealed that she died after seven pellets from a shotgun had been fired",
-        "latitude": -33.74199524012793,
-        "longitude": 18.971838534376825,
+        "latitude": -33.73928704391115,
+        "longitude": 18.978938491213697,
         "person": "Yvonne Dube ",
         "place": "Paarl East",
-        "sex": "F"
+        "sex": "F",
+        "timestamp": 211068000
     },
     {
         "age": "18",
         "date_of_death": "26/12/1976",
         "detail": "Shot to death",
-        "latitude": -33.984247863217114,
-        "longitude": 18.58586802842206,
+        "latitude": -33.992630972379,
+        "longitude": 18.578481174779558,
         "person": "Zacharia Nkangana ",
         "place": "Nyanga",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220399200
     },
     {
         "age": "18",
         "date_of_death": "08/09/1976",
         "detail": "Found dead in mortuary",
-        "latitude": -33.98733885014894,
-        "longitude": 18.56975089705765,
+        "latitude": -33.98518606441046,
+        "longitude": 18.585721238672534,
         "person": "Zizwe Zizwe",
         "place": "Gugulethu",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 210981600
     },
     {
         "age": "18",
         "date_of_death": "27/12/1976",
         "detail": "",
-        "latitude": -33.947955298683404,
-        "longitude": 18.52260112825163,
+        "latitude": -33.95328227709057,
+        "longitude": 18.53118641978717,
         "person": "Zwelethu Sydney Gongxeka ",
         "place": "Langa",
-        "sex": "M"
+        "sex": "M",
+        "timestamp": 220485600
     }
 ]
