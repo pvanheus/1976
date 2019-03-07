@@ -16,7 +16,7 @@
         "detail": "Shot to death",
         "latitude": -33.97606420211102,
         "longitude": 18.583712398764963,
-        "person": "Abel Daniso Gcwabe ",
+        "person": "Abel Daniso Gcwabe",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 215647200
@@ -27,7 +27,7 @@
         "detail": "Shot to death",
         "latitude": -33.964444,
         "longitude": 22.459722,
-        "person": "Abida Harris ",
+        "person": "Abida Harris",
         "place": "George",
         "sex": "F",
         "timestamp": 211154400
@@ -104,7 +104,7 @@
         "detail": "Gunshot wound in head",
         "latitude": -33.97228389204602,
         "longitude": 18.586224856985787,
-        "person": "Apton Gidliza Dunga ",
+        "person": "Apton Gidliza Dunga",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 218239200
@@ -148,7 +148,7 @@
         "detail": "Shot in side of abdomen at Majiet Stores",
         "latitude": -33.918546961035105,
         "longitude": 18.570197231891616,
-        "person": "Bazil David Albern ",
+        "person": "Bazil David Albern",
         "place": "Elsies River",
         "sex": "M",
         "timestamp": 211068000
@@ -245,8 +245,8 @@
         "age": "49",
         "date_of_death": "11/09/1976",
         "detail": "Shot in the chest",
-        "latitude": -32.3670942,
-        "longitude": 22.5927829,
+        "latitude": -33.9277,
+        "longitude": 18.6893,
         "person": "Christopher Olivier",
         "place": "Kuilsrivier",
         "sex": "M",
@@ -324,7 +324,7 @@
         "detail": "Gunshot wound in the chest",
         "latitude": -33.95243919900776,
         "longitude": 18.52913289860173,
-        "person": "Dambile Sidwell Mdayi ",
+        "person": "Dambile Sidwell Mdayi",
         "place": "Langa",
         "sex": "M",
         "timestamp": 208562400
@@ -357,7 +357,7 @@
         "detail": "Gunshot wound in chest",
         "latitude": -33.93765042858655,
         "longitude": 18.52701368325294,
-        "person": "Dennis Bantu Dlanza ",
+        "person": "Dennis Bantu Dlanza",
         "place": "Langa",
         "sex": "M",
         "timestamp": 220485600
@@ -390,7 +390,7 @@
         "detail": "Axed to death",
         "latitude": -33.989516916845204,
         "longitude": 18.584848876439533,
-        "person": "Ellen Makaluza ",
+        "person": "Ellen Makaluza",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 220399200
@@ -401,7 +401,7 @@
         "detail": "Gunshot wound in abdomen",
         "latitude": -33.99621554465996,
         "longitude": 18.557969248159328,
-        "person": "Errol Johnson ",
+        "person": "Errol Johnson",
         "place": "Manenberg",
         "sex": "M",
         "timestamp": 223941600
@@ -478,7 +478,7 @@
         "detail": "Beaten to death",
         "latitude": -33.98273668273555,
         "longitude": 18.577492001356447,
-        "person": "Gladwell Maneli ",
+        "person": "Gladwell Maneli",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 221004000
@@ -511,7 +511,7 @@
         "detail": "Killed by migrant workers",
         "latitude": -33.99462633857589,
         "longitude": 18.56680945248551,
-        "person": "Golden Bakubaku ",
+        "person": "Golden Bakubaku",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 220399200
@@ -555,7 +555,7 @@
         "detail": "Shot to death",
         "latitude": -33.97818996376797,
         "longitude": 18.57902135446872,
-        "person": "Harry Kwisomba ",
+        "person": "Harry Kwisomba",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 220399200
@@ -599,7 +599,7 @@
         "detail": "Unknown",
         "latitude": -34.17608283187216,
         "longitude": 22.156560775040152,
-        "person": "Isaac Bezuidenhout ",
+        "person": "Isaac Bezuidenhout",
         "place": "Mossel Bay",
         "sex": "M",
         "timestamp": 211500000
@@ -632,7 +632,7 @@
         "detail": "Gunshot wound in chest",
         "latitude": -33.985021949382315,
         "longitude": 18.587518103256773,
-        "person": "James Mphutumi Mbali ",
+        "person": "James Mphutumi Mbali",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 218239200
@@ -654,7 +654,7 @@
         "detail": "Gunshot wound in neck",
         "latitude": -33.98326001654333,
         "longitude": 18.57984531908255,
-        "person": "Joe Pakamile Magasana ",
+        "person": "Joe Pakamile Magasana",
         "place": "Nyanga East",
         "sex": "M",
         "timestamp": 221436000
@@ -764,7 +764,7 @@
         "detail": "Unknown",
         "latitude": -33.99072058284025,
         "longitude": 18.568582859294573,
-        "person": "Lawrence Jonas ",
+        "person": "Lawrence Jonas",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 220399200
@@ -775,7 +775,7 @@
         "detail": "\u201csuicide by hanging\u201d Arrested 02/09/1976\u00a0at 06h00. Found hanging from ceiling by a noose made of strips of blanket tied together with pieces of twine at 07.40.\u00a0The State pathologist, ruled that Mazwembe had several wounds to his body, including neck abrasions, swelling and bruising of his right cheekbone, slight swelling of the lower scrotum, several abrasions over both shoulder blades and on the left ankle.",
         "latitude": -33.92759,
         "longitude": 18.4223,
-        "person": "Luke Mazwembe ",
+        "person": "Luke Mazwembe",
         "place": "Caledon Square",
         "sex": "M",
         "timestamp": 210463200
@@ -786,7 +786,7 @@
         "detail": "Shot in right shoulder from behind at Winkelsentrum",
         "latitude": -33.945763107061865,
         "longitude": 18.521725198275295,
-        "person": "M. B. A Mzwamadoda ",
+        "person": "M. B. A Mzwamadoda",
         "place": "Langa",
         "sex": "M",
         "timestamp": 208562400
@@ -852,7 +852,7 @@
         "detail": "Gunshot wound in chest",
         "latitude": -33.98512004457726,
         "longitude": 18.589543169958414,
-        "person": "Michael Bota ",
+        "person": "Michael Bota",
         "place": "Nyanga East",
         "sex": "M",
         "timestamp": 220399200
@@ -863,7 +863,7 @@
         "detail": "Unknown",
         "latitude": -33.946914834760335,
         "longitude": 18.524006417749643,
-        "person": "Michael Tabalaza ",
+        "person": "Michael Tabalaza",
         "place": "Langa",
         "sex": "M",
         "timestamp": 219276000
@@ -896,7 +896,7 @@
         "detail": "Shot to death",
         "latitude": -33.991971233435166,
         "longitude": 18.576819386698414,
-        "person": "Monica Makundayi ",
+        "person": "Monica Makundayi",
         "place": "Gugulethu",
         "sex": "F",
         "timestamp": 220399200
@@ -940,7 +940,7 @@
         "detail": "Shot in chest and abdomen from an angle",
         "latitude": -33.99467348074291,
         "longitude": 18.54628128702577,
-        "person": "Nazeem Khan ",
+        "person": "Nazeem Khan",
         "place": "Manenberg",
         "sex": "M",
         "timestamp": 211672800
@@ -951,7 +951,7 @@
         "detail": "Axed to death",
         "latitude": -33.97483267966485,
         "longitude": 18.57193787490699,
-        "person": "Nelson Guwa ",
+        "person": "Nelson Guwa",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 220399200
@@ -1006,7 +1006,7 @@
         "detail": "Gunshot wound",
         "latitude": -33.98281689367339,
         "longitude": 18.53973812264721,
-        "person": "Noel John Adriaanse ",
+        "person": "Noel John Adriaanse",
         "place": "Hanover Park",
         "sex": "M",
         "timestamp": 210463200
@@ -1116,7 +1116,7 @@
         "detail": "Shot in Darling Street Reported in police list as casualty not resulting from police action",
         "latitude": -33.93562788920775,
         "longitude": 18.426112158260043,
-        "person": "Radiwaan Yasin ",
+        "person": "Radiwaan Yasin",
         "place": "Cape Town",
         "sex": "M",
         "timestamp": 210895200
@@ -1138,7 +1138,7 @@
         "detail": "Shot through neck from behind at Bottle Store No. 4",
         "latitude": -33.94420982599593,
         "longitude": 18.52758725562634,
-        "person": "Rebecca Majeke ",
+        "person": "Rebecca Majeke",
         "place": "Langa",
         "sex": "F",
         "timestamp": 208562400
@@ -1160,7 +1160,7 @@
         "detail": "Died as a result of migrant workers and riot police attack",
         "latitude": -33.984616477789686,
         "longitude": 18.583902130455964,
-        "person": "Richard Khalipha ",
+        "person": "Richard Khalipha",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 222127200
@@ -1171,7 +1171,7 @@
         "detail": "Gunshot wound in back",
         "latitude": -33.98280726483304,
         "longitude": 18.548272249763475,
-        "person": "Richard Mncedisi Xipa ",
+        "person": "Richard Mncedisi Xipa",
         "place": "Manenberg",
         "sex": "M",
         "timestamp": 211068000
@@ -1204,7 +1204,7 @@
         "detail": "Unknown",
         "latitude": -33.934444,
         "longitude": 18.869167,
-        "person": "Ronald Carolissen ",
+        "person": "Ronald Carolissen",
         "place": "Stellenbosch",
         "sex": "M",
         "timestamp": 212191200
@@ -1237,7 +1237,7 @@
         "detail": "Unknown",
         "latitude": -33.98550023907799,
         "longitude": 18.582646031585824,
-        "person": "Sabelo Ntlabathi ",
+        "person": "Sabelo Ntlabathi",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 220485600
@@ -1325,7 +1325,7 @@
         "detail": "Gunshot wound in neck",
         "latitude": -33.98814458532113,
         "longitude": 18.575660709138983,
-        "person": "Sitembiso Richard Bam ",
+        "person": "Sitembiso Richard Bam",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": -1
@@ -1336,7 +1336,7 @@
         "detail": "Gunshot wound",
         "latitude": -33.97317433702868,
         "longitude": 18.575367713888895,
-        "person": "Sithembiso Michael Tabalanka ",
+        "person": "Sithembiso Michael Tabalanka",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 221436000
@@ -1358,7 +1358,7 @@
         "detail": "Gunshot wound in back",
         "latitude": -33.97800754854422,
         "longitude": 18.57209482656838,
-        "person": "Stanley Mlamli Hlakula ",
+        "person": "Stanley Mlamli Hlakula",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 220485600
@@ -1380,7 +1380,7 @@
         "detail": "Beaten to death",
         "latitude": -33.98219332511685,
         "longitude": 18.579386374061535,
-        "person": "Sydney Barnes ",
+        "person": "Sydney Barnes",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 209858400
@@ -1424,7 +1424,7 @@
         "detail": "Gunshot wound in back",
         "latitude": -33.99215954772545,
         "longitude": 18.584108305189826,
-        "person": "Thobi Jaho ",
+        "person": "Thobi Jaho",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 219621600
@@ -1457,7 +1457,7 @@
         "detail": "Unknown",
         "latitude": -33.5902954,
         "longitude": 22.204206,
-        "person": "Unknown person ",
+        "person": "Unknown person",
         "place": "Oudtshoorn",
         "sex": "Unknown",
         "timestamp": 211154400
@@ -1468,7 +1468,7 @@
         "detail": "Reported missing during December disturbances",
         "latitude": -33.97302017232097,
         "longitude": 18.582536385738536,
-        "person": "Victor August ",
+        "person": "Victor August",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": 220831200
@@ -1490,7 +1490,7 @@
         "detail": "Unknown",
         "latitude": -33.984734435703565,
         "longitude": 18.571810578270842,
-        "person": "Victor Woukaza ",
+        "person": "Victor Woukaza",
         "place": "Gugulethu",
         "sex": "M",
         "timestamp": -1
@@ -1556,7 +1556,7 @@
         "detail": "Gunshot wound in lower body",
         "latitude": -33.981572674354595,
         "longitude": 18.577350683452302,
-        "person": "Willem Botha ",
+        "person": "Willem Botha",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 220399200
@@ -1578,7 +1578,7 @@
         "detail": "Inquest revealed that she died after seven pellets from a shotgun had been fired",
         "latitude": -33.73928704391115,
         "longitude": 18.978938491213697,
-        "person": "Yvonne Dube ",
+        "person": "Yvonne Dube",
         "place": "Paarl East",
         "sex": "F",
         "timestamp": 211068000
@@ -1589,7 +1589,7 @@
         "detail": "Shot to death",
         "latitude": -33.992630972379,
         "longitude": 18.578481174779558,
-        "person": "Zacharia Nkangana ",
+        "person": "Zacharia Nkangana",
         "place": "Nyanga",
         "sex": "M",
         "timestamp": 220399200
@@ -1611,7 +1611,7 @@
         "detail": "",
         "latitude": -33.95328227709057,
         "longitude": 18.53118641978717,
-        "person": "Zwelethu Sydney Gongxeka ",
+        "person": "Zwelethu Sydney Gongxeka",
         "place": "Langa",
         "sex": "M",
         "timestamp": 220485600
