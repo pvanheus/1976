@@ -7,11 +7,11 @@ import re
 from io import StringIO
 import pandas as pd
 from geopy.geocoders import Nominatim
-from geopy.geocoders import GoogleV3
+# from geopy.geocoders import GoogleV3
 from geopy.exc import GeocoderTimedOut
 
-nom = Nominatim()
-google = GoogleV3()
+nom = Nominatim(user_agent='1976_death_data; pvh@webbedfeet.co.za; ')
+# google = GoogleV3()
 random.seed(1551374432)
 
 def lookup(place, coder=nom, timeout=60):
@@ -121,6 +121,10 @@ except (IOError, json.decoder.JSONDecodeError):
             # lookup does Caledon Square incorrectly
             latitude = -33.92759
             longitude = 18.42230
+        elif place == 'Kuilsrivier':
+            # lookup does Kuilsrivier incorrectly
+            latitude = -33.9277
+            longitude = 18.6893
         else:
             location = lookup(place)
             latitude = location.latitude
@@ -169,6 +173,7 @@ clean_data['searchable_date'] = searchable_dates
 output_data = []
 for i, row in clean_data.iterrows():
     place = row['PLACE of death']
+    row['NAME'] = row['NAME'].strip()
     if deaths_by_place[place] > 1:
         fudge_lat = (random.random() - 0.5) / 50
         fudge_long = (random.random() - 0.5) / 50
