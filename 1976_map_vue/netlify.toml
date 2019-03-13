@@ -2,6 +2,6 @@
   base    = "1976_map_vue"
   command = "npm serve"
   publish = "1976_map_vue/dist"
-  functions = "./functions"
+  functions = "1976_map_vue/functions"
 
 
