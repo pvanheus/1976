@@ -1,0 +1,7 @@
+[build]
+  base    = "1976_map_vue"
+  command = "npm serve"
+  publish = "1976_map_vue/dist"
+  functions = "1976_map_vue/functions"
+
+
