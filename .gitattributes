@@ -8,3 +8,4 @@ map_images/1976_capetown_map.png filter=lfs diff=lfs merge=lfs -text
 map_images/1976_capetown_map.jpg filter=lfs diff=lfs merge=lfs -text
 map_images/1976map.jpg filter=lfs diff=lfs merge=lfs -text
 map_images/1976map.xcf filter=lfs diff=lfs merge=lfs -text
+RoleOfRiotPoliceInBurningsAndKillingsNyangaCapeTownChristmas1976.pdf filter=lfs diff=lfs merge=lfs -text
